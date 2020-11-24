@@ -1,12 +1,12 @@
- clear;
+clear;
 dl = 0.001;
 [x,y] = meshgrid(-0.3:dl:0.3);
 n=1000;
 strehl_ff = zeros(1,n+1);
-strehl = zeros(1,n+1);
+%strehl = zeros(1,n+1);
 strehl_e = zeros(1,n+1);
 theoretical = zeros(1,n+1);
-for sr = 0:n
+for sr = 0:n/2
    [intensity, mask] = gauss(x,y,0.15,0,0,sr/n);
    field0 = sqrt(intensity);
    field1 = sqrt(intensity.*mask);
@@ -20,7 +20,7 @@ for sr = 0:n
    field1_f = fft2(field1);
    equivalent_f = fft2(equivalent_field);
    
-   strehl(sr+1) = (sum(sum(field1))/(sum(sum(equivalent_field))))^2;
+   %strehl(sr+1) = (sum(sum(field1))/(sum(sum(equivalent_field))))^2;
    strehl_ff(sr+1) = (abs(field1_f(1))/abs(equivalent_f(1)))^2;
    strehl_e(sr+1) = (sum(sum(field1))/(efficient_field))^2;
    theoretical(sr+1) = 8*(sr/n).^2.*(1-2*exp(-0.25*(sr/n).^-2) + exp(-0.5*(sr/n).^-2));
