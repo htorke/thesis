@@ -3,8 +3,8 @@ clear;
 
 %Defined Parameters
 %30 centimeter lens diameter
-array_diameter_n = 3;
-lens_diameter = 28e-3;
+array_diameter_n = 1;
+lens_diameter = 30e-3;%28e-3;
 lens_spacing = 32e-3;
 %Spatial Resolution
 dl = 1e-4;
@@ -28,4 +28,4 @@ for i=-(array_diameter_n-1)/2:(array_diameter_n-1)/2
    end
 end
 
-imagesc(x(1,:),y(:,1),intensity)
+%imagesc(x(1,:),y(:,1),intensity)
