@@ -1,74 +1,48 @@
-function [Z] = zernike(x, y, n, m, radius)
+function [abberation] = zernike(x,y,file)
 
-r = sqrt((x.^2)+(y.^2));
-rho = (r/radius).*(abs(r) <= radius);
+fd = fopen(file,'r');
 
-theta = atan2(y,x);
+i=0;
+fgetl(fd);
+fgetl(fd);
+fgetl(fd);
+fgetl(fd);
 
-if (m<0) %Case Odd
-  m = -m;
-  ang_comp = sin(m*theta);
-else%Case Even
-  ang_comp = cos(m*theta);
+abberation = zeros(size(x));
+
+for np = 0:5
+  for m = np:-1:0
+    for mp = 1:-2: -1
+      %Skip case m=0 mp=-1 because m=0 has no double
+      if ~((mp==-1)&(m==0))
+        n = 2*np - m;
+        i = i+1;
+    
+        a = fgetl(fd);
+        term = strfind(a,':');
+        if(strfind(a(1:term-1),'--'))
+          coeff(i) = 0;
+%          coeff(i) = coeff(i-1);
+        else
+          if(strfind(a(1:term-1),'e'))
+            ex = strfind(a(1:term-1),'e');
+            base = str2double(a(1:ex-1));
+            order = str2double(a(ex+1:term-1));
+            coeff(i) = base *10^(order);
+          else
+            coeff(i) = str2double(a(1:term-1));
+          end
+        end
+    
+        zn = zernike_poly(x,y,n,mp*m,0.03);
+        abberation = abberation + zn*coeff(i);
+
+%        subplot(6,6,i);
+%        imagesc(zn);
+%        set(gca,'YDir','normal');
+      end
+    end
+  end
 end
 
-R = zeros(size(x));
-if n==0
-  R = ones(size(rho));
-elseif n == 1
-  if m == 1
-    R = rho;
-  end
-elseif n==2
-  if m == 0
-    R = 2*rho.^2 - 1;
-  elseif m == 2
-    R = rho.^2;
-  end
-elseif n==3
-  if m == 1
-    R = 3*rho.^3 - 2*rho;
-  elseif m == 3
-    R = rho.^3;
-  end
-elseif n==4
-  if m == 0
-    R = 6*rho.^4 - 6*rho.^2 + 1;
-  elseif m == 2
-    R = 4*rho.^4 - 3*rho.^2;
-  elseif m == 4
-    R = rho.^4;
-  end
-elseif n==5
-  if m == 1
-    R = 10*rho.^5 - 12*rho.^3 + 3*rho;
-  elseif m == 3
-    R = 5*rho.^5 - 4*rho.^3;
-  elseif m == 5
-    R = rho.^5;
-  end
-elseif n==6
-  if m==0
-    R = 20*rho.^6 - 30*rho.^4 + 12*rho.^2 - 1;
-  elseif m==2
-    R = 15*rho.^6 - 20*rho.^4 + 6*rho.^2;
-  elseif m==4
-    R = 6*rho.^6 - 5*rho.^4;
-  elseif m==6
-    R = rho.^6;
-  end
-end
-R = R.*(abs(r) <= radius);
-for k=0:floor((n-m)/2)
-  if mod(n-m,2) == 0
-    Rmn = (rho.^(n-2*k))*(factorial(n-k)*(-1)^k)/(factorial(k)*factorial(-k + (n+m)/2)*factorial(-k + (n-m)/2));
-  else
-    Rmn = zeros(size(rho));
-  end
-%  R1 = (Rmn == 1);
-%  Rmn =((1-R1).*Rmn + R1);
-  R = R + Rmn;
-end
-
-Z = R.*ang_comp;
 end
