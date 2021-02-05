@@ -1,10 +1,10 @@
-function [intensity,aperture,x,y] = gaussian_lens(sigR,x,y,dl)
+function [intensity,aperture,x,y] = gaussian_lens(x,y,dl,sigR)
 
-if nargin < 1
+if nargin < 4
   sigR = 0.447;
 end
 
-if nargin < 4
+if nargin < 3
   dl = 0.001;
   [x,y] = meshgrid(-0.3:dl:0.3);
 end
