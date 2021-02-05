@@ -22,7 +22,7 @@ for sr = 0:n/2
    
    %strehl(sr+1) = (sum(sum(field1))/(sum(sum(equivalent_field))))^2;
    strehl_ff(sr+1) = (abs(field1_f(1))/abs(equivalent_f(1)))^2;
-   strehl_e(sr+1) = strehl(equivalent_field,field1);%(sum(sum(field1))/(efficient_field))^2;
+   strehl_e(sr+1) = strehl_2(equivalent_field,field1);%(sum(sum(field1))/(efficient_field))^2;
    theoretical(sr+1) = 8*(sr/n).^2.*(1-2*exp(-0.25*(sr/n).^-2) + exp(-0.5*(sr/n).^-2));
    %Ds\dsr = (8 (1 - 2 exp (-0.25 (n)^-2) + exp (-0.5 (n)^-2))*(n)^2)
 end

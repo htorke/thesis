@@ -1,11 +1,13 @@
-function [S] = strehl(Ei,Eo)
-mask = round(Eo>0);
+function [S] = strehl(field, aperture)
+  
+  intensity = field.*conj(field);
+  
+  mask = round(abs(aperture)>0);
+  
+  equivalent_intensity = sum(sum(intensity))*mask/sum(sum(mask));
+  equivalent_field = sqrt(equivalent_intensity);
 
-Ii = abs(Ei).^2;
-Iideal = sum(sum(Ii))*mask/sum(sum(mask));
-Eideal = sqrt(Iideal);
-
-
-S = (abs(sum(sum(Eo)))/abs(sum(sum(Eideal))))^2;
+  
+  S = (abs(sum(sum(field.*aperture)))/abs(sum(sum(equivalent_field))))^2;
 
 end

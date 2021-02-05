@@ -1,4 +1,4 @@
-function [abberation] = zernike(x,y,file)
+function [abberation] = zernike(x,y,r,file)
 
 fd = fopen(file,'r');
 
@@ -22,7 +22,6 @@ for np = 0:5
         term = strfind(a,':');
         if(strfind(a(1:term-1),'--'))
           coeff(i) = 0;
-%          coeff(i) = coeff(i-1);
         else
           if(strfind(a(1:term-1),'e'))
             ex = strfind(a(1:term-1),'e');
@@ -34,7 +33,7 @@ for np = 0:5
           end
         end
     
-        zn = zernike_poly(x,y,n,mp*m,0.03);
+        zn = zernike_poly(y,x,n,mp*m,r);
         abberation = abberation + zn*coeff(i);
 
 %        subplot(6,6,i);
