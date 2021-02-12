@@ -1,3 +1,10 @@
+
+*ZERNIKE ANALYSIS 
+ WAVELENGTH 1
+ Positive angle A is a rotation from the +y axis toward the +x axis.
+    0.063662: [0]  1
+    0.000256: [1]  RCOSA
+      --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
