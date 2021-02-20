@@ -1,0 +1,66 @@
+#define N_ANGLES 12
+#define N_POINTS 21
+#define THETA_MAX 30
+#define PI 3.14159265359
+#define EFL 498.335807
+
+/* Number of total measurements is equal to humber of lines 
+evaluated multiplied by points evaluated across each line */
+#define N_MEASUREMENTS (N_ANGLES*N_POINTS)
+cmd sweep()
+{
+
+	/*Iterator*/
+	int n = 0;
+	real psi;
+	real theta;
+	
+	/*Angle calculations*/
+	real x_offset;
+	real y_offset;
+	real z_offset;
+	real x_angle;
+	real y_angle;
+	
+	
+	print("Beginning sweep");
+	for(psi = 0; psi < 180; psi = psi + 15)
+	{
+		for (i = -(N_POINTS-1)/2; i <= (N_POINTS-1)/2; i++)
+		{
+		
+			n = n+1;
+			print("Run ",n);
+		
+			theta = i * 2 * THETA_MAX / (N_POINTS-1);
+			x_angle = theta*cos(2*PI*psi/360);
+			y_angle = theta*sin(2*PI*psi/360);
+		
+			x_offset = EFL*tan(2*PI*x_angle/360);
+			y_offset = EFL*tan(2*PI*y_angle/360);
+			z_offset = 0.0;
+
+			/*Print out the coordinates which will be used in the filename for identification*/	
+			if(x_offset == 0){
+				print("X:    0.0");
+			}else{
+				print("X:",x_offset);
+			}
+			if(y_offset == 0){
+				print("Y:    0.0");
+			}else{
+				print("Y:",y_offset);
+			}
+			if(z_offset == 0){
+				print("Z:    0.0");
+			}else{
+				print("Z:",z_offset);
+			}
+
+			zer none 1 x_offset y_offset z_offset 36;
+	
+			/*End line makes identification of separate polynomials easier*/
+			print("====================");
+		}
+	}
+}
