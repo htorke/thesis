@@ -1,5 +1,9 @@
 function [abberation] = zernike(x,y,r,file)
 
+%Returns aberration screen
+%Inputs X Y R file
+%Output aberration
+
 fd = fopen(file,'r');
 
 i=0;
