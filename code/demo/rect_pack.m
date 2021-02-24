@@ -10,17 +10,17 @@ if nargin < 5
 end
 
 if nargin < 4
-  lens_diameter = 30e-2;
+  lens_diameter = 30e-3;
 else
   lens_diameter = D;
 end
 
 if nargin < 3
-  dl = 0.001;
-  [x,y] = meshgrid(-0.3:dl:0.3);
+  dl = 0.0001;
+  [x,y] = meshgrid(-0.03:dl:0.03);
 end
 
-lens_diameter = 30e-2;
+lens_diameter = 30e-3;
 cell_width = 2*lens_diameter;
 cell_height = 2*lens_diameter;
 

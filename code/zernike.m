@@ -37,7 +37,7 @@ for np = 0:5
           end
         end
     
-        zn = zernike_poly(y,x,n,mp*m,r);
+        zn = zernike_poly(x,y,n,mp*m,r);
         abberation = abberation + zn*coeff(i);
 
 %        subplot(6,6,i);

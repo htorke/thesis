@@ -1,12 +1,10 @@
-function [S] = strehl(field, aperture, ideal_aperture, x, y, fx, fy)
-  %Takes field before entering aperture and aperture itself
+function [S] = strehl(field, aperture, ideal_aperture)
+  %Arguments
+  %Field
+  %Aperture
+  %Ideal Aperture
   %Optional argument ideal_aperture
-  %Optional arguments: x,y,fx,fy for calculating tilt
   
-  if nargin < 7
-    fx = 0;
-    fy = 0;
-  end
   
   if nargin < 3
     ideal_aperture = aperture;

@@ -1,6 +1,9 @@
 function [aperture] = lens(x,y,d,aberration)
-
-  %Aberration is specified
+  %X
+  %Y
+  %Diameter
+  %Aberration is specified filename
+  
   if(nargin > 3)
     opd = zernike(x,y,d/2,aberration);
     phase = exp(sqrt(-1)*2*pi*opd);
