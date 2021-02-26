@@ -1,91 +1,69 @@
-function [intensity,aperture,x,y] = hex_pack(x,y,dl,D,sigR)
+function [field,power,x,y] = hex_pack(r,sigR,dl)
 %Close Packed Hex Cell
 % Arguments: 
-% x,y - set to -0.03:0.0001:0.03 as default
-% dl - set to 0.0001 as default
-% D - set to 0.03
+% r - set to 0.015 as default
 % sigR - set to 0.447 as default
-% Return:
-% intensity
-% aperture
-% x
-% y
-if nargin < 5
+% dl - set to 0.001 as default
+
+if nargin < 2
   sigR = 0.447;
 end
 
-if nargin < 4
-  lens_diameter = 30e-3;
+if nargin < 1
+  lens_radius = 15e-3;
 else
-  lens_diameter = D;
+  lens_radius = r;
 end
 
 if nargin < 3
   dl = 0.0001;
-  [x,y] = meshgrid(-0.03:dl:0.03);
 end
 
-cell_width = 2*lens_diameter;
-cell_height = sqrt(3)*lens_diameter;
+cell_width = 2*lens_radius*2;
+cell_height = sqrt(3)*lens_radius*2;
 
 [x,y] = meshgrid((-cell_width/2:dl:cell_width/2),(-cell_height/2:dl:cell_height/2));
 
 field = zeros(size(x));
-mask = zeros(size(x));
+power = 0;
 
-
-%+2,0
-[i, m] = gauss(x+3*lens_diameter/2,y,lens_diameter/2,0,0);
-field = field + sqrt(i);
-mask = mask + m;
-
-%-2,0
-[i, m] = gauss(x-3*lens_diameter/2,y,lens_diameter/2,0,0);
-field = field + sqrt(i);
-mask = mask + m;
 
 %+1,0
-[i, m] = gauss(x+lens_diameter/2,y,lens_diameter/2,0,0);
-field = field + sqrt(i);
-mask = mask + m;
+[e,p] = gaussian_lens(x+lens_radius,y,lens_radius,sigR,dl);
+field = field + e;
+power = power+p;
 
 %-1,0
-[i, m] = gauss(x-lens_diameter/2,y,lens_diameter/2,0,0);
-field = field + sqrt(i);
-mask = mask + m;
+[e,p] = gaussian_lens(x-lens_radius,y,lens_radius,sigR,dl);
+field = field + e;
+power = power+p;
 
 %-1,1
-[i, m] = gauss(x-lens_diameter,y+sqrt(3)*lens_diameter/2,lens_diameter/2,0,0);
-field = field + sqrt(i);
-mask = mask + m;
+[e,p] = gaussian_lens(x-lens_radius*2,y+sqrt(3)*lens_radius,lens_radius,sigR,dl);
+field = field + e;
+power = power+p;
 
 %0,1
-[i, m] = gauss(x,y+sqrt(3)*lens_diameter/2,lens_diameter/2,0,0);
-field = field + sqrt(i);
-mask = mask + m;
+[e,p] = gaussian_lens(x,y+sqrt(3)*lens_radius,lens_radius,sigR,dl);
+field = field + e;
+power = power+p;
 
 %1,1
-[i, m] = gauss(x+lens_diameter,y+sqrt(3)*lens_diameter/2,lens_diameter/2,0,0);
-field = field + sqrt(i);
-mask = mask + m;
+[e,p] = gaussian_lens(x+lens_radius*2,y+sqrt(3)*lens_radius,lens_radius,sigR,dl);
+field = field + e;
+power = power+p;
 
 %-1,-1
-[i, m] = gauss(x-lens_diameter,y-sqrt(3)*lens_diameter/2,lens_diameter/2,0,0);
-field = field + sqrt(i);
-mask = mask + m;
+[e,p] = gaussian_lens(x-lens_radius*2,y-sqrt(3)*lens_radius,lens_radius,sigR,dl);
+field = field + e;
+power = power+p;
 
 %0,-1
-[i, m] = gauss(x,y-sqrt(3)*lens_diameter/2,lens_diameter/2,0,0);
-field = field + sqrt(i);
-mask = mask + m;
+[e,p] = gaussian_lens(x,y-sqrt(3)*lens_radius,lens_radius,sigR,dl);
+field = field + e;
+power = power+p;
 
 %1,-1
-[i, m] = gauss(x+lens_diameter,y-sqrt(3)*lens_diameter/2,lens_diameter/2,0,0);
-field = field + sqrt(i);
-mask = mask + m;
-
-intensity = field.*field;
-
-equivalent_intensity = sum(sum(intensity))*mask/sum(sum(mask));
-equivalent_field = sqrt(equivalent_intensity);
-aperture = mask;
+[e,p] = gaussian_lens(x+lens_radius*2,y-sqrt(3)*lens_radius,lens_radius,sigR,dl);
+field = field + e;
+power = power+p;

@@ -1,5 +1,5 @@
 Run    1
-X: -287.714312
+X:   -8.698484
 Y:    0.0
 Z:    0.0
 
@@ -7,7 +7,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.4741e+04: [1]  RCOSA
+ -445.671836: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -43,10 +43,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.3706e+03   ERROR    0.000272
+RMS OPD  222.835925   ERROR  9.7203e-07
 ====================
 Run    2
-X: -253.914776
+X:   -7.828484
 Y:    0.0
 Z:    0.0
 
@@ -54,7 +54,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.3009e+04: [1]  RCOSA
+ -401.096914: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -90,10 +90,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.5047e+03   ERROR      --    
+RMS OPD  200.548465   ERROR  4.7624e-06
 ====================
 Run    3
-X: -221.873396
+X:   -6.958533
 Y:    0.0
 Z:    0.0
 
@@ -101,7 +101,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.1368e+04: [1]  RCOSA
+ -356.524435: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -137,10 +137,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.6839e+03   ERROR    0.000181
+RMS OPD  178.262227   ERROR  2.2987e-06
 ====================
 Run    4
-X: -191.293194
+X:   -6.088623
 Y:    0.0
 Z:    0.0
 
@@ -148,7 +148,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -9.8010e+03: [1]  RCOSA
+ -311.954129: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -184,10 +184,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.9005e+03   ERROR  1.1324e-05
+RMS OPD  155.977075   ERROR      --    
 ====================
 Run    5
-X: -161.919119
+X:   -5.218751
 Y:    0.0
 Z:    0.0
 
@@ -195,7 +195,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -8.2960e+03: [1]  RCOSA
+ -267.385724: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -231,10 +231,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.1480e+03   ERROR      --    
+RMS OPD  133.692874   ERROR      --    
 ====================
 Run    6
-X: -133.528677
+X:   -4.348911
 Y:    0.0
 Z:    0.0
 
@@ -242,7 +242,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -6.8414e+03: [1]  RCOSA
+ -222.818947: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -278,10 +278,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.4207e+03   ERROR  6.9024e-05
+RMS OPD  111.409488   ERROR  3.5790e-06
 ====================
 Run    7
-X: -105.924546
+X:   -3.479097
 Y:    0.0
 Z:    0.0
 
@@ -289,7 +289,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -5.4271e+03: [1]  RCOSA
+ -178.253529: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -325,10 +325,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.7136e+03   ERROR      --    
+RMS OPD   89.126783   ERROR      --    
 ====================
 Run    8
-X:  -78.928638
+X:   -2.609304
 Y:    0.0
 Z:    0.0
 
@@ -336,7 +336,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -4.0440e+03: [1]  RCOSA
+ -133.689196: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -372,10 +372,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0220e+03   ERROR      --    
+RMS OPD   66.844622   ERROR  1.9442e-06
 ====================
 Run    9
-X:  -52.377204
+X:   -1.739527
 Y:    0.0
 Z:    0.0
 
@@ -383,7 +383,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.6836e+03: [1]  RCOSA
+  -89.125678: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -419,10 +419,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3418e+03   ERROR  5.9642e-05
+RMS OPD   44.562876   ERROR  1.0974e-06
 ====================
 Run   10
-X:  -26.116673
+X:   -0.869761
 Y:    0.0
 Z:    0.0
 
@@ -430,7 +430,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.3381e+03: [1]  RCOSA
+  -44.562703: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -466,7 +466,7 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  669.051402   ERROR      --    
+RMS OPD   22.281425   ERROR      --    
 ====================
 Run   11
 X:    0.0
@@ -516,7 +516,7 @@ Z:    0.0
 RMS OPD    0.056957   ERROR  3.0928e-09
 ====================
 Run   12
-X:   26.116673
+X:    0.869761
 Y:    0.0
 Z:    0.0
 
@@ -524,7 +524,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.3381e+03: [1]  RCOSA
+   44.562703: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -560,10 +560,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  669.051402   ERROR      --    
+RMS OPD   22.281425   ERROR  1.8672e-07
 ====================
 Run   13
-X:   52.377204
+X:    1.739527
 Y:    0.0
 Z:    0.0
 
@@ -571,7 +571,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.6836e+03: [1]  RCOSA
+   89.125678: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -607,10 +607,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3418e+03   ERROR  5.1394e-05
+RMS OPD   44.562876   ERROR  1.1108e-06
 ====================
 Run   14
-X:   78.928638
+X:    2.609304
 Y:    0.0
 Z:    0.0
 
@@ -618,7 +618,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  4.0440e+03: [1]  RCOSA
+  133.689196: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -654,10 +654,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0220e+03   ERROR      --    
+RMS OPD   66.844622   ERROR      --    
 ====================
 Run   15
-X:  105.924546
+X:    3.479097
 Y:    0.0
 Z:    0.0
 
@@ -665,7 +665,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  5.4271e+03: [1]  RCOSA
+  178.253529: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -701,10 +701,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.7136e+03   ERROR      --    
+RMS OPD   89.126783   ERROR      --    
 ====================
 Run   16
-X:  133.528677
+X:    4.348911
 Y:    0.0
 Z:    0.0
 
@@ -712,7 +712,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  6.8414e+03: [1]  RCOSA
+  222.818947: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -748,10 +748,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.4207e+03   ERROR  8.3554e-05
+RMS OPD  111.409488   ERROR  3.0398e-06
 ====================
 Run   17
-X:  161.919119
+X:    5.218751
 Y:    0.0
 Z:    0.0
 
@@ -759,7 +759,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  8.2960e+03: [1]  RCOSA
+  267.385724: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -795,10 +795,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.1480e+03   ERROR      --    
+RMS OPD  133.692874   ERROR  1.9683e-06
 ====================
 Run   18
-X:  191.293194
+X:    6.088623
 Y:    0.0
 Z:    0.0
 
@@ -806,7 +806,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  9.8010e+03: [1]  RCOSA
+  311.954129: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -842,10 +842,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.9005e+03   ERROR      --    
+RMS OPD  155.977075   ERROR      --    
 ====================
 Run   19
-X:  221.873396
+X:    6.958533
 Y:    0.0
 Z:    0.0
 
@@ -853,7 +853,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.1368e+04: [1]  RCOSA
+  356.524435: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -889,10 +889,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.6839e+03   ERROR      --    
+RMS OPD  178.262227   ERROR      --    
 ====================
 Run   20
-X:  253.914776
+X:    7.828484
 Y:    0.0
 Z:    0.0
 
@@ -900,7 +900,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.3009e+04: [1]  RCOSA
+  401.096914: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -936,10 +936,10 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.5047e+03   ERROR      --    
+RMS OPD  200.548465   ERROR      --    
 ====================
 Run   21
-X:  287.714312
+X:    8.698484
 Y:    0.0
 Z:    0.0
 
@@ -947,7 +947,7 @@ Z:    0.0
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.4741e+04: [1]  RCOSA
+  445.671836: [1]  RCOSA
       --    : [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
@@ -983,19 +983,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.3706e+03   ERROR  9.1759e-05
+RMS OPD  222.835925   ERROR  6.6412e-06
 ====================
 Run   22
-X: -275.979402
-Y:  -67.949614
+X:   -8.402033
+Y:   -2.251120
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.4140e+04: [1]  RCOSA
- -3.4814e+03: [2]  RSINA
+ -430.483008: [1]  RCOSA
+ -115.337431: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1030,19 +1030,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.2811e+03   ERROR      --    
+RMS OPD  222.833097   ERROR      --    
 ====================
 Run   23
-X: -243.916501
-Y:  -61.083010
+X:   -7.561694
+Y:   -2.026005
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.2497e+04: [1]  RCOSA
- -3.1296e+03: [2]  RSINA
+ -387.427733: [1]  RCOSA
+ -103.803554: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1077,19 +1077,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.4416e+03   ERROR    0.000116
+RMS OPD  200.546403   ERROR      --    
 ====================
 Run   24
-X: -213.403971
-Y:  -54.239180
+X:   -6.721397
+Y:   -1.800892
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.0934e+04: [1]  RCOSA
- -2.7790e+03: [2]  RSINA
+ -344.374660: [1]  RCOSA
+  -92.269719: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1124,19 +1124,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.6408e+03   ERROR    0.000126
+RMS OPD  178.260778   ERROR      --    
 ====================
 Run   25
-X: -184.186198
-Y:  -47.415512
+X:   -5.881139
+Y:   -1.575779
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -9.4369e+03: [1]  RCOSA
- -2.4294e+03: [2]  RSINA
+ -301.323545: [1]  RCOSA
+  -80.735922: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1171,19 +1171,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8723e+03   ERROR    0.000105
+RMS OPD  155.976105   ERROR      --    
 ====================
 Run   26
-X: -156.041611
-Y:  -40.609419
+X:   -5.040914
+Y:   -1.350666
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -7.9949e+03: [1]  RCOSA
- -2.0806e+03: [2]  RSINA
+ -258.274143: [1]  RCOSA
+  -69.202157: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1218,19 +1218,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.1306e+03   ERROR    0.000106
+RMS OPD  133.692263   ERROR  2.1931e-06
 ====================
 Run   27
-X: -128.775290
-Y:  -33.818342
+X:   -4.200718
+Y:   -1.125554
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -6.5979e+03: [1]  RCOSA
- -1.7327e+03: [2]  RSINA
+ -215.226210: [1]  RCOSA
+  -57.668421: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1265,19 +1265,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.4108e+03   ERROR      --    
+RMS OPD  111.409135   ERROR      --    
 ====================
 Run   28
-X: -102.213072
-Y:  -27.039746
+X:   -3.360546
+Y:   -0.900443
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -5.2369e+03: [1]  RCOSA
- -1.3854e+03: [2]  RSINA
+ -172.179500: [1]  RCOSA
+  -46.134709: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1312,19 +1312,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.7085e+03   ERROR      --    
+RMS OPD   89.126602   ERROR      --    
 ====================
 Run   29
-X:  -76.196746
-Y:  -20.271112
+X:   -2.520393
+Y:   -0.675332
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -3.9040e+03: [1]  RCOSA
- -1.0386e+03: [2]  RSINA
+ -129.133768: [1]  RCOSA
+  -34.601015: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1359,19 +1359,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0199e+03   ERROR      --    
+RMS OPD   66.844546   ERROR      --    
 ====================
 Run   30
-X:  -50.580046
-Y:  -13.509936
+X:   -1.680254
+Y:   -0.450221
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.5915e+03: [1]  RCOSA
- -692.189381: [2]  RSINA
+  -86.088771: [1]  RCOSA
+  -23.067336: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1406,19 +1406,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3412e+03   ERROR      --    
+RMS OPD   44.562853   ERROR      --    
 ====================
 Run   31
-X:  -25.225223
-Y:   -6.753728
+X:   -0.840125
+Y:   -0.225110
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.2924e+03: [1]  RCOSA
- -346.031123: [2]  RSINA
+  -43.044263: [1]  RCOSA
+  -11.533665: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1453,7 +1453,7 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.974932   ERROR      --    
+RMS OPD   22.281422   ERROR  2.7614e-07
 ====================
 Run   32
 X:    0.0
@@ -1503,16 +1503,16 @@ Z:    0.0
 RMS OPD    0.056957   ERROR  3.0928e-09
 ====================
 Run   33
-X:   25.225223
-Y:    6.753728
+X:    0.840125
+Y:    0.225110
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.2924e+03: [1]  RCOSA
-  346.031123: [2]  RSINA
+   43.044263: [1]  RCOSA
+   11.533665: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1547,19 +1547,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.974932   ERROR  1.4774e-05
+RMS OPD   22.281422   ERROR      --    
 ====================
 Run   34
-X:   50.580046
-Y:   13.509936
+X:    1.680254
+Y:    0.450221
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.5915e+03: [1]  RCOSA
-  692.189381: [2]  RSINA
+   86.088771: [1]  RCOSA
+   23.067336: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1594,19 +1594,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3412e+03   ERROR      --    
+RMS OPD   44.562853   ERROR  7.2479e-07
 ====================
 Run   35
-X:   76.196746
-Y:   20.271112
+X:    2.520393
+Y:    0.675332
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  3.9040e+03: [1]  RCOSA
-  1.0386e+03: [2]  RSINA
+  129.133768: [1]  RCOSA
+   34.601015: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1641,19 +1641,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0199e+03   ERROR      --    
+RMS OPD   66.844546   ERROR  1.3484e-06
 ====================
 Run   36
-X:  102.213072
-Y:   27.039746
+X:    3.360546
+Y:    0.900443
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  5.2369e+03: [1]  RCOSA
-  1.3854e+03: [2]  RSINA
+  172.179500: [1]  RCOSA
+   46.134709: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1688,19 +1688,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.7085e+03   ERROR      --    
+RMS OPD   89.126602   ERROR      --    
 ====================
 Run   37
-X:  128.775290
-Y:   33.818342
+X:    4.200718
+Y:    1.125554
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  6.5979e+03: [1]  RCOSA
-  1.7327e+03: [2]  RSINA
+  215.226210: [1]  RCOSA
+   57.668421: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1735,19 +1735,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.4108e+03   ERROR  3.8882e-05
+RMS OPD  111.409135   ERROR  3.2845e-06
 ====================
 Run   38
-X:  156.041611
-Y:   40.609419
+X:    5.040914
+Y:    1.350666
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  7.9949e+03: [1]  RCOSA
-  2.0806e+03: [2]  RSINA
+  258.274143: [1]  RCOSA
+   69.202157: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1782,19 +1782,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.1306e+03   ERROR  7.6081e-05
+RMS OPD  133.692263   ERROR  4.0661e-06
 ====================
 Run   39
-X:  184.186198
-Y:   47.415512
+X:    5.881139
+Y:    1.575779
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  9.4369e+03: [1]  RCOSA
-  2.4294e+03: [2]  RSINA
+  301.323545: [1]  RCOSA
+   80.735922: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1829,19 +1829,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8723e+03   ERROR    0.000103
+RMS OPD  155.976105   ERROR      --    
 ====================
 Run   40
-X:  213.403971
-Y:   54.239180
+X:    6.721397
+Y:    1.800892
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.0934e+04: [1]  RCOSA
-  2.7790e+03: [2]  RSINA
+  344.374660: [1]  RCOSA
+   92.269719: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1876,19 +1876,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.6408e+03   ERROR      --    
+RMS OPD  178.260778   ERROR  2.9127e-06
 ====================
 Run   41
-X:  243.916501
-Y:   61.083010
+X:    7.561694
+Y:    2.026005
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.2497e+04: [1]  RCOSA
-  3.1296e+03: [2]  RSINA
+  387.427733: [1]  RCOSA
+  103.803554: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1923,19 +1923,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.4416e+03   ERROR    0.000176
+RMS OPD  200.546403   ERROR      --    
 ====================
 Run   42
-X:  275.979402
-Y:   67.949614
+X:    8.402033
+Y:    2.251120
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.4140e+04: [1]  RCOSA
-  3.4814e+03: [2]  RSINA
+  430.483008: [1]  RCOSA
+  115.337431: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -1970,19 +1970,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.2811e+03   ERROR      --    
+RMS OPD  222.833097   ERROR      --    
 ====================
 Run   43
-X: -242.847520
-Y: -133.528677
+X:   -7.532917
+Y:   -4.348911
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.2442e+04: [1]  RCOSA
- -6.8414e+03: [2]  RSINA
+ -385.953333: [1]  RCOSA
+ -222.818947: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2017,19 +2017,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.0996e+03   ERROR    0.000159
+RMS OPD  222.827440   ERROR      --    
 ====================
 Run   44
-X: -215.470393
-Y: -119.639842
+X:   -6.779527
+Y:   -3.914001
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.1040e+04: [1]  RCOSA
- -6.1298e+03: [2]  RSINA
+ -347.352974: [1]  RCOSA
+ -200.536085: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2064,19 +2064,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.3137e+03   ERROR    0.000164
+RMS OPD  200.542279   ERROR      --    
 ====================
 Run   45
-X: -189.146857
-Y: -105.924546
+X:   -6.026168
+Y:   -3.479097
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -9.6910e+03: [1]  RCOSA
- -5.4271e+03: [2]  RSINA
+ -308.754201: [1]  RCOSA
+ -178.253529: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2111,19 +2111,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.5536e+03   ERROR      --    
+RMS OPD  178.257882   ERROR      --    
 ====================
 Run   46
-X: -163.714699
-Y:  -92.361083
+X:   -5.272837
+Y:   -3.044198
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -8.3880e+03: [1]  RCOSA
- -4.7322e+03: [2]  RSINA
+ -270.156840: [1]  RCOSA
+ -155.971244: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2158,19 +2158,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8154e+03   ERROR      --    
+RMS OPD  155.974165   ERROR      --    
 ====================
 Run   47
-X: -139.029643
-Y:  -78.928638
+X:   -4.519530
+Y:   -2.609304
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -7.1233e+03: [1]  RCOSA
- -4.0440e+03: [2]  RSINA
+ -231.560713: [1]  RCOSA
+ -133.689196: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2205,19 +2205,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.0956e+03   ERROR  4.8024e-05
+RMS OPD  133.691041   ERROR  2.4053e-06
 ====================
 Run   48
-X: -114.961769
-Y:  -65.607154
+X:   -3.766243
+Y:   -2.174414
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -5.8901e+03: [1]  RCOSA
- -3.3614e+03: [2]  RSINA
+ -192.965644: [1]  RCOSA
+ -111.407353: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2252,19 +2252,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.3909e+03   ERROR      --    
+RMS OPD  111.408428   ERROR  2.0558e-06
 ====================
 Run   49
-X:  -91.392554
-Y:  -52.377204
+X:   -3.012974
+Y:   -1.739527
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -4.6826e+03: [1]  RCOSA
- -2.6836e+03: [2]  RSINA
+ -154.371457: [1]  RCOSA
+  -89.125678: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2299,19 +2299,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.6985e+03   ERROR      --    
+RMS OPD   89.126240   ERROR      --    
 ====================
 Run   50
-X:  -68.212376
-Y:  -39.219879
+X:   -2.259718
+Y:   -1.304643
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -3.4949e+03: [1]  RCOSA
- -2.0095e+03: [2]  RSINA
+ -115.777976: [1]  RCOSA
+  -66.844140: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2346,19 +2346,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0157e+03   ERROR      --    
+RMS OPD   66.844393   ERROR  1.8626e-06
 ====================
 Run   51
-X:  -45.318370
-Y:  -26.116673
+X:   -1.506473
+Y:   -0.869761
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.3219e+03: [1]  RCOSA
- -1.3381e+03: [2]  RSINA
+  -77.185023: [1]  RCOSA
+  -44.562703: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2393,19 +2393,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3399e+03   ERROR  3.9374e-05
+RMS OPD   44.562808   ERROR  1.1816e-06
 ====================
 Run   52
-X:  -22.612530
-Y:  -13.049382
+X:   -0.753235
+Y:   -0.434880
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.1586e+03: [1]  RCOSA
- -668.592629: [2]  RSINA
+  -38.592423: [1]  RCOSA
+  -22.281335: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2440,7 +2440,7 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.821967   ERROR  7.0008e-06
+RMS OPD   22.281416   ERROR      --    
 ====================
 Run   53
 X:    0.0
@@ -2490,16 +2490,16 @@ Z:    0.0
 RMS OPD    0.056957   ERROR  3.0928e-09
 ====================
 Run   54
-X:   22.612530
-Y:   13.049382
+X:    0.753235
+Y:    0.434880
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.1586e+03: [1]  RCOSA
-  668.592629: [2]  RSINA
+   38.592423: [1]  RCOSA
+   22.281335: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2534,19 +2534,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.821967   ERROR      --    
+RMS OPD   22.281416   ERROR  6.4407e-07
 ====================
 Run   55
-X:   45.318370
-Y:   26.116673
+X:    1.506473
+Y:    0.869761
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.3219e+03: [1]  RCOSA
-  1.3381e+03: [2]  RSINA
+   77.185023: [1]  RCOSA
+   44.562703: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2581,19 +2581,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3399e+03   ERROR      --    
+RMS OPD   44.562808   ERROR      --    
 ====================
 Run   56
-X:   68.212376
-Y:   39.219879
+X:    2.259718
+Y:    1.304643
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  3.4949e+03: [1]  RCOSA
-  2.0095e+03: [2]  RSINA
+  115.777976: [1]  RCOSA
+   66.844140: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2628,19 +2628,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0157e+03   ERROR      --    
+RMS OPD   66.844393   ERROR      --    
 ====================
 Run   57
-X:   91.392554
-Y:   52.377204
+X:    3.012974
+Y:    1.739527
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  4.6826e+03: [1]  RCOSA
-  2.6836e+03: [2]  RSINA
+  154.371457: [1]  RCOSA
+   89.125678: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2675,19 +2675,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.6985e+03   ERROR      --    
+RMS OPD   89.126240   ERROR      --    
 ====================
 Run   58
-X:  114.961769
-Y:   65.607154
+X:    3.766243
+Y:    2.174414
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  5.8901e+03: [1]  RCOSA
-  3.3614e+03: [2]  RSINA
+  192.965644: [1]  RCOSA
+  111.407353: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2722,19 +2722,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.3909e+03   ERROR  2.7546e-05
+RMS OPD  111.408428   ERROR      --    
 ====================
 Run   59
-X:  139.029643
-Y:   78.928638
+X:    4.519530
+Y:    2.609304
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  7.1233e+03: [1]  RCOSA
-  4.0440e+03: [2]  RSINA
+  231.560713: [1]  RCOSA
+  133.689196: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2769,19 +2769,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.0956e+03   ERROR      --    
+RMS OPD  133.691041   ERROR      --    
 ====================
 Run   60
-X:  163.714699
-Y:   92.361083
+X:    5.272837
+Y:    3.044198
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  8.3880e+03: [1]  RCOSA
-  4.7322e+03: [2]  RSINA
+  270.156840: [1]  RCOSA
+  155.971244: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2816,19 +2816,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8154e+03   ERROR    0.000134
+RMS OPD  155.974165   ERROR      --    
 ====================
 Run   61
-X:  189.146857
-Y:  105.924546
+X:    6.026168
+Y:    3.479097
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  9.6910e+03: [1]  RCOSA
-  5.4271e+03: [2]  RSINA
+  308.754201: [1]  RCOSA
+  178.253529: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2863,19 +2863,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.5536e+03   ERROR      --    
+RMS OPD  178.257882   ERROR      --    
 ====================
 Run   62
-X:  215.470393
-Y:  119.639842
+X:    6.779527
+Y:    3.914001
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.1040e+04: [1]  RCOSA
-  6.1298e+03: [2]  RSINA
+  347.352974: [1]  RCOSA
+  200.536085: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2910,19 +2910,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.3137e+03   ERROR  6.0610e-05
+RMS OPD  200.542279   ERROR      --    
 ====================
 Run   63
-X:  242.847520
-Y:  133.528677
+X:    7.532917
+Y:    4.348911
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.2442e+04: [1]  RCOSA
-  6.8414e+03: [2]  RSINA
+  385.953333: [1]  RCOSA
+  222.818947: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -2957,19 +2957,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.0996e+03   ERROR    0.000259
+RMS OPD  222.827440   ERROR      --    
 ====================
 Run   64
-X: -193.423848
-Y: -193.423848
+X:   -6.150445
+Y:   -6.150445
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -9.9102e+03: [1]  RCOSA
- -9.9102e+03: [2]  RSINA
+ -315.121577: [1]  RCOSA
+ -315.121577: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3004,19 +3004,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.0076e+03   ERROR      --    
+RMS OPD  222.824611   ERROR  6.0085e-06
 ====================
 Run   65
-X: -172.485186
-Y: -172.485186
+X:   -5.535347
+Y:   -5.535347
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -8.8374e+03: [1]  RCOSA
- -8.8374e+03: [2]  RSINA
+ -283.606683: [1]  RCOSA
+ -283.606683: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3051,19 +3051,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.2490e+03   ERROR      --    
+RMS OPD  200.540217   ERROR      --    
 ====================
 Run   66
-X: -152.076625
-Y: -152.076625
+X:   -4.920266
+Y:   -4.920266
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -7.7917e+03: [1]  RCOSA
- -7.7917e+03: [2]  RSINA
+ -252.092654: [1]  RCOSA
+ -252.092654: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3098,19 +3098,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.5096e+03   ERROR      --    
+RMS OPD  178.256434   ERROR      --    
 ====================
 Run   67
-X: -132.124293
-Y: -132.124293
+X:   -4.305200
+Y:   -4.305200
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -6.7695e+03: [1]  RCOSA
- -6.7695e+03: [2]  RSINA
+ -220.579392: [1]  RCOSA
+ -220.579392: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3145,19 +3145,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.7867e+03   ERROR      --    
+RMS OPD  155.973194   ERROR      --    
 ====================
 Run   68
-X: -112.560041
-Y: -112.560041
+X:   -3.690147
+Y:   -3.690147
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -5.7671e+03: [1]  RCOSA
- -5.7671e+03: [2]  RSINA
+ -189.066803: [1]  RCOSA
+ -189.066803: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3192,19 +3192,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.0779e+03   ERROR      --    
+RMS OPD  133.690430   ERROR  2.6852e-06
 ====================
 Run   69
-X:  -93.320443
-Y:  -93.320443
+X:   -3.075105
+Y:   -3.075105
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -4.7813e+03: [1]  RCOSA
- -4.7813e+03: [2]  RSINA
+ -157.554789: [1]  RCOSA
+ -157.554789: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3239,19 +3239,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.3809e+03   ERROR    0.000120
+RMS OPD  111.408074   ERROR      --    
 ====================
 Run   70
-X:  -74.345914
-Y:  -74.345914
+X:   -2.460073
+Y:   -2.460073
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -3.8092e+03: [1]  RCOSA
- -3.8092e+03: [2]  RSINA
+ -126.043255: [1]  RCOSA
+ -126.043255: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3286,19 +3286,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.6935e+03   ERROR      --    
+RMS OPD   89.126059   ERROR      --    
 ====================
 Run   71
-X:  -55.579943
-Y:  -55.579943
+X:   -1.845048
+Y:   -1.845048
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.8477e+03: [1]  RCOSA
- -2.8477e+03: [2]  RSINA
+  -94.532105: [1]  RCOSA
+  -94.532105: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3333,19 +3333,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0136e+03   ERROR  2.4141e-05
+RMS OPD   66.844317   ERROR      --    
 ====================
 Run   72
-X:  -36.968386
-Y:  -36.968386
+X:   -1.230029
+Y:   -1.230029
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.8941e+03: [1]  RCOSA
- -1.8941e+03: [2]  RSINA
+  -63.021244: [1]  RCOSA
+  -63.021244: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3380,19 +3380,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3393e+03   ERROR      --    
+RMS OPD   44.562785   ERROR      --    
 ====================
 Run   73
-X:  -18.458832
-Y:  -18.458832
+X:   -0.615014
+Y:   -0.615014
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -945.748912: [1]  RCOSA
- -945.748912: [2]  RSINA
+  -31.510574: [1]  RCOSA
+  -31.510574: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3427,7 +3427,7 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.745471   ERROR  3.6343e-06
+RMS OPD   22.281413   ERROR      --    
 ====================
 Run   74
 X:    0.0
@@ -3477,16 +3477,16 @@ Z:    0.0
 RMS OPD    0.056957   ERROR  3.0928e-09
 ====================
 Run   75
-X:   18.458832
-Y:   18.458832
+X:    0.615014
+Y:    0.615014
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  945.748912: [1]  RCOSA
-  945.748912: [2]  RSINA
+   31.510574: [1]  RCOSA
+   31.510574: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3521,19 +3521,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.745471   ERROR  4.2018e-06
+RMS OPD   22.281413   ERROR      --    
 ====================
 Run   76
-X:   36.968386
-Y:   36.968386
+X:    1.230029
+Y:    1.230029
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.8941e+03: [1]  RCOSA
-  1.8941e+03: [2]  RSINA
+   63.021244: [1]  RCOSA
+   63.021244: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3568,19 +3568,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3393e+03   ERROR      --    
+RMS OPD   44.562785   ERROR  7.2950e-07
 ====================
 Run   77
-X:   55.579943
-Y:   55.579943
+X:    1.845048
+Y:    1.845048
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.8477e+03: [1]  RCOSA
-  2.8477e+03: [2]  RSINA
+   94.532105: [1]  RCOSA
+   94.532105: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3615,19 +3615,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0136e+03   ERROR  5.1385e-05
+RMS OPD   66.844317   ERROR  1.6554e-06
 ====================
 Run   78
-X:   74.345914
-Y:   74.345914
+X:    2.460073
+Y:    2.460073
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  3.8092e+03: [1]  RCOSA
-  3.8092e+03: [2]  RSINA
+  126.043255: [1]  RCOSA
+  126.043255: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3662,19 +3662,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.6935e+03   ERROR      --    
+RMS OPD   89.126059   ERROR      --    
 ====================
 Run   79
-X:   93.320443
-Y:   93.320443
+X:    3.075105
+Y:    3.075105
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  4.7813e+03: [1]  RCOSA
-  4.7813e+03: [2]  RSINA
+  157.554789: [1]  RCOSA
+  157.554789: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3709,19 +3709,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.3809e+03   ERROR      --    
+RMS OPD  111.408074   ERROR      --    
 ====================
 Run   80
-X:  112.560041
-Y:  112.560041
+X:    3.690147
+Y:    3.690147
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  5.7671e+03: [1]  RCOSA
-  5.7671e+03: [2]  RSINA
+  189.066803: [1]  RCOSA
+  189.066803: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3756,19 +3756,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.0779e+03   ERROR      --    
+RMS OPD  133.690430   ERROR  2.6695e-06
 ====================
 Run   81
-X:  132.124293
-Y:  132.124293
+X:    4.305200
+Y:    4.305200
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  6.7695e+03: [1]  RCOSA
-  6.7695e+03: [2]  RSINA
+  220.579392: [1]  RCOSA
+  220.579392: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3803,19 +3803,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.7867e+03   ERROR      --    
+RMS OPD  155.973194   ERROR      --    
 ====================
 Run   82
-X:  152.076625
-Y:  152.076625
+X:    4.920266
+Y:    4.920266
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  7.7917e+03: [1]  RCOSA
-  7.7917e+03: [2]  RSINA
+  252.092654: [1]  RCOSA
+  252.092654: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3850,19 +3850,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.5096e+03   ERROR    0.000125
+RMS OPD  178.256434   ERROR  1.3363e-06
 ====================
 Run   83
-X:  172.485186
-Y:  172.485186
+X:    5.535347
+Y:    5.535347
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  8.8374e+03: [1]  RCOSA
-  8.8374e+03: [2]  RSINA
+  283.606683: [1]  RCOSA
+  283.606683: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3897,19 +3897,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.2490e+03   ERROR      --    
+RMS OPD  200.540217   ERROR  5.3213e-06
 ====================
 Run   84
-X:  193.423848
-Y:  193.423848
+X:    6.150445
+Y:    6.150445
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  9.9102e+03: [1]  RCOSA
-  9.9102e+03: [2]  RSINA
+  315.121577: [1]  RCOSA
+  315.121577: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3944,19 +3944,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.0076e+03   ERROR      --    
+RMS OPD  222.824611   ERROR  8.2721e-06
 ====================
 Run   85
-X: -133.528677
-Y: -242.847520
+X:   -4.348911
+Y:   -7.532917
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -6.8414e+03: [1]  RCOSA
- -1.2442e+04: [2]  RSINA
+ -222.818947: [1]  RCOSA
+ -385.953333: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -3991,19 +3991,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.0996e+03   ERROR      --    
+RMS OPD  222.827440   ERROR      --    
 ====================
 Run   86
-X: -119.639842
-Y: -215.470393
+X:   -3.914001
+Y:   -6.779527
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -6.1298e+03: [1]  RCOSA
- -1.1040e+04: [2]  RSINA
+ -200.536085: [1]  RCOSA
+ -347.352974: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4038,19 +4038,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.3137e+03   ERROR  5.0535e-05
+RMS OPD  200.542279   ERROR      --    
 ====================
 Run   87
-X: -105.924546
-Y: -189.146857
+X:   -3.479097
+Y:   -6.026168
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -5.4271e+03: [1]  RCOSA
- -9.6910e+03: [2]  RSINA
+ -178.253529: [1]  RCOSA
+ -308.754201: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4085,19 +4085,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.5536e+03   ERROR  8.0593e-05
+RMS OPD  178.257882   ERROR      --    
 ====================
 Run   88
-X:  -92.361083
-Y: -163.714699
+X:   -3.044198
+Y:   -5.272837
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -4.7322e+03: [1]  RCOSA
- -8.3880e+03: [2]  RSINA
+ -155.971244: [1]  RCOSA
+ -270.156840: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4132,19 +4132,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8154e+03   ERROR      --    
+RMS OPD  155.974165   ERROR  3.7733e-06
 ====================
 Run   89
-X:  -78.928638
-Y: -139.029643
+X:   -2.609304
+Y:   -4.519530
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -4.0440e+03: [1]  RCOSA
- -7.1233e+03: [2]  RSINA
+ -133.689196: [1]  RCOSA
+ -231.560713: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4179,19 +4179,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.0956e+03   ERROR  8.4078e-05
+RMS OPD  133.691041   ERROR      --    
 ====================
 Run   90
-X:  -65.607154
-Y: -114.961769
+X:   -2.174414
+Y:   -3.766243
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -3.3614e+03: [1]  RCOSA
- -5.8901e+03: [2]  RSINA
+ -111.407353: [1]  RCOSA
+ -192.965644: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4226,19 +4226,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.3909e+03   ERROR      --    
+RMS OPD  111.408428   ERROR  3.0462e-06
 ====================
 Run   91
-X:  -52.377204
-Y:  -91.392554
+X:   -1.739527
+Y:   -3.012974
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.6836e+03: [1]  RCOSA
- -4.6826e+03: [2]  RSINA
+  -89.125678: [1]  RCOSA
+ -154.371457: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4273,19 +4273,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.6985e+03   ERROR      --    
+RMS OPD   89.126240   ERROR      --    
 ====================
 Run   92
-X:  -39.219879
-Y:  -68.212376
+X:   -1.304643
+Y:   -2.259718
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.0095e+03: [1]  RCOSA
- -3.4949e+03: [2]  RSINA
+  -66.844140: [1]  RCOSA
+ -115.777976: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4320,19 +4320,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0157e+03   ERROR      --    
+RMS OPD   66.844393   ERROR      --    
 ====================
 Run   93
-X:  -26.116673
-Y:  -45.318370
+X:   -0.869761
+Y:   -1.506473
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.3381e+03: [1]  RCOSA
- -2.3219e+03: [2]  RSINA
+  -44.562703: [1]  RCOSA
+  -77.185023: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4367,19 +4367,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3399e+03   ERROR  3.5575e-05
+RMS OPD   44.562808   ERROR      --    
 ====================
 Run   94
-X:  -13.049382
-Y:  -22.612530
+X:   -0.434880
+Y:   -0.753235
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -668.592629: [1]  RCOSA
- -1.1586e+03: [2]  RSINA
+  -22.281335: [1]  RCOSA
+  -38.592423: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4414,7 +4414,7 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.821967   ERROR      --    
+RMS OPD   22.281416   ERROR      --    
 ====================
 Run   95
 X:    0.0
@@ -4464,16 +4464,16 @@ Z:    0.0
 RMS OPD    0.056957   ERROR  3.0928e-09
 ====================
 Run   96
-X:   13.049382
-Y:   22.612530
+X:    0.434880
+Y:    0.753235
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  668.592629: [1]  RCOSA
-  1.1586e+03: [2]  RSINA
+   22.281335: [1]  RCOSA
+   38.592423: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4508,19 +4508,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.821967   ERROR  2.7335e-06
+RMS OPD   22.281416   ERROR      --    
 ====================
 Run   97
-X:   26.116673
-Y:   45.318370
+X:    0.869761
+Y:    1.506473
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.3381e+03: [1]  RCOSA
-  2.3219e+03: [2]  RSINA
+   44.562703: [1]  RCOSA
+   77.185023: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4555,19 +4555,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3399e+03   ERROR  3.1866e-05
+RMS OPD   44.562808   ERROR      --    
 ====================
 Run   98
-X:   39.219879
-Y:   68.212376
+X:    1.304643
+Y:    2.259718
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.0095e+03: [1]  RCOSA
-  3.4949e+03: [2]  RSINA
+   66.844140: [1]  RCOSA
+  115.777976: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4602,19 +4602,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0157e+03   ERROR      --    
+RMS OPD   66.844393   ERROR      --    
 ====================
 Run   99
-X:   52.377204
-Y:   91.392554
+X:    1.739527
+Y:    3.012974
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.6836e+03: [1]  RCOSA
-  4.6826e+03: [2]  RSINA
+   89.125678: [1]  RCOSA
+  154.371457: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4649,19 +4649,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.6985e+03   ERROR      --    
+RMS OPD   89.126240   ERROR      --    
 ====================
 Run  100
-X:   65.607154
-Y:  114.961769
+X:    2.174414
+Y:    3.766243
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  3.3614e+03: [1]  RCOSA
-  5.8901e+03: [2]  RSINA
+  111.407353: [1]  RCOSA
+  192.965644: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4696,19 +4696,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.3909e+03   ERROR  6.9658e-05
+RMS OPD  111.408428   ERROR  2.3536e-06
 ====================
 Run  101
-X:   78.928638
-Y:  139.029643
+X:    2.609304
+Y:    4.519530
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  4.0440e+03: [1]  RCOSA
-  7.1233e+03: [2]  RSINA
+  133.689196: [1]  RCOSA
+  231.560713: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4743,19 +4743,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.0956e+03   ERROR  5.2836e-05
+RMS OPD  133.691041   ERROR      --    
 ====================
 Run  102
-X:   92.361083
-Y:  163.714699
+X:    3.044198
+Y:    5.272837
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  4.7322e+03: [1]  RCOSA
-  8.3880e+03: [2]  RSINA
+  155.971244: [1]  RCOSA
+  270.156840: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4790,19 +4790,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8154e+03   ERROR      --    
+RMS OPD  155.974165   ERROR      --    
 ====================
 Run  103
-X:  105.924546
-Y:  189.146857
+X:    3.479097
+Y:    6.026168
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  5.4271e+03: [1]  RCOSA
-  9.6910e+03: [2]  RSINA
+  178.253529: [1]  RCOSA
+  308.754201: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4837,19 +4837,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.5536e+03   ERROR      --    
+RMS OPD  178.257882   ERROR      --    
 ====================
 Run  104
-X:  119.639842
-Y:  215.470393
+X:    3.914001
+Y:    6.779527
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  6.1298e+03: [1]  RCOSA
-  1.1040e+04: [2]  RSINA
+  200.536085: [1]  RCOSA
+  347.352974: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4884,19 +4884,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.3137e+03   ERROR      --    
+RMS OPD  200.542279   ERROR  6.5852e-06
 ====================
 Run  105
-X:  133.528677
-Y:  242.847520
+X:    4.348911
+Y:    7.532917
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  6.8414e+03: [1]  RCOSA
-  1.2442e+04: [2]  RSINA
+  222.818947: [1]  RCOSA
+  385.953333: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4931,19 +4931,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.0996e+03   ERROR      --    
+RMS OPD  222.827440   ERROR      --    
 ====================
 Run  106
-X:  -67.949614
-Y: -275.979402
+X:   -2.251120
+Y:   -8.402033
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -3.4814e+03: [1]  RCOSA
- -1.4140e+04: [2]  RSINA
+ -115.337431: [1]  RCOSA
+ -430.483008: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -4978,19 +4978,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.2811e+03   ERROR      --    
+RMS OPD  222.833097   ERROR      --    
 ====================
 Run  107
-X:  -61.083010
-Y: -243.916501
+X:   -2.026005
+Y:   -7.561694
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -3.1296e+03: [1]  RCOSA
- -1.2497e+04: [2]  RSINA
+ -103.803554: [1]  RCOSA
+ -387.427733: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5025,19 +5025,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.4416e+03   ERROR      --    
+RMS OPD  200.546403   ERROR      --    
 ====================
 Run  108
-X:  -54.239180
-Y: -213.403971
+X:   -1.800892
+Y:   -6.721397
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.7790e+03: [1]  RCOSA
- -1.0934e+04: [2]  RSINA
+  -92.269719: [1]  RCOSA
+ -344.374660: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5072,19 +5072,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.6408e+03   ERROR      --    
+RMS OPD  178.260778   ERROR  3.7204e-06
 ====================
 Run  109
-X:  -47.415512
-Y: -184.186198
+X:   -1.575779
+Y:   -5.881139
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.4294e+03: [1]  RCOSA
- -9.4369e+03: [2]  RSINA
+  -80.735922: [1]  RCOSA
+ -301.323545: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5119,19 +5119,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8723e+03   ERROR    0.000179
+RMS OPD  155.976105   ERROR      --    
 ====================
 Run  110
-X:  -40.609419
-Y: -156.041611
+X:   -1.350666
+Y:   -5.040914
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.0806e+03: [1]  RCOSA
- -7.9949e+03: [2]  RSINA
+  -69.202157: [1]  RCOSA
+ -258.274143: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5166,19 +5166,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.1306e+03   ERROR      --    
+RMS OPD  133.692263   ERROR  3.8115e-06
 ====================
 Run  111
-X:  -33.818342
-Y: -128.775290
+X:   -1.125554
+Y:   -4.200718
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.7327e+03: [1]  RCOSA
- -6.5979e+03: [2]  RSINA
+  -57.668421: [1]  RCOSA
+ -215.226210: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5213,19 +5213,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.4108e+03   ERROR      --    
+RMS OPD  111.409135   ERROR      --    
 ====================
 Run  112
-X:  -27.039746
-Y: -102.213072
+X:   -0.900443
+Y:   -3.360546
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.3854e+03: [1]  RCOSA
- -5.2369e+03: [2]  RSINA
+  -46.134709: [1]  RCOSA
+ -172.179500: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5260,19 +5260,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.7085e+03   ERROR      --    
+RMS OPD   89.126602   ERROR      --    
 ====================
 Run  113
-X:  -20.271112
-Y:  -76.196746
+X:   -0.675332
+Y:   -2.520393
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.0386e+03: [1]  RCOSA
- -3.9040e+03: [2]  RSINA
+  -34.601015: [1]  RCOSA
+ -129.133768: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5307,19 +5307,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0199e+03   ERROR  4.1398e-05
+RMS OPD   66.844546   ERROR  9.7904e-07
 ====================
 Run  114
-X:  -13.509936
-Y:  -50.580046
+X:   -0.450221
+Y:   -1.680254
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -692.189381: [1]  RCOSA
- -2.5915e+03: [2]  RSINA
+  -23.067336: [1]  RCOSA
+  -86.088771: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5354,19 +5354,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3412e+03   ERROR      --    
+RMS OPD   44.562853   ERROR      --    
 ====================
 Run  115
-X:   -6.753728
-Y:  -25.225223
+X:   -0.225110
+Y:   -0.840125
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -346.031123: [1]  RCOSA
- -1.2924e+03: [2]  RSINA
+  -11.533665: [1]  RCOSA
+  -43.044263: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5401,7 +5401,7 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.974932   ERROR      --    
+RMS OPD   22.281422   ERROR      --    
 ====================
 Run  116
 X:    0.0
@@ -5451,16 +5451,16 @@ Z:    0.0
 RMS OPD    0.056957   ERROR  3.0928e-09
 ====================
 Run  117
-X:    6.753728
-Y:   25.225223
+X:    0.225110
+Y:    0.840125
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  346.031123: [1]  RCOSA
-  1.2924e+03: [2]  RSINA
+   11.533665: [1]  RCOSA
+   43.044263: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5495,19 +5495,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.974932   ERROR      --    
+RMS OPD   22.281422   ERROR  6.3652e-07
 ====================
 Run  118
-X:   13.509936
-Y:   50.580046
+X:    0.450221
+Y:    1.680254
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  692.189381: [1]  RCOSA
-  2.5915e+03: [2]  RSINA
+   23.067336: [1]  RCOSA
+   86.088771: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5542,19 +5542,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3412e+03   ERROR      --    
+RMS OPD   44.562853   ERROR      --    
 ====================
 Run  119
-X:   20.271112
-Y:   76.196746
+X:    0.675332
+Y:    2.520393
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.0386e+03: [1]  RCOSA
-  3.9040e+03: [2]  RSINA
+   34.601015: [1]  RCOSA
+  129.133768: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5589,19 +5589,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0199e+03   ERROR      --    
+RMS OPD   66.844546   ERROR      --    
 ====================
 Run  120
-X:   27.039746
-Y:  102.213072
+X:    0.900443
+Y:    3.360546
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.3854e+03: [1]  RCOSA
-  5.2369e+03: [2]  RSINA
+   46.134709: [1]  RCOSA
+  172.179500: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5636,19 +5636,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.7085e+03   ERROR      --    
+RMS OPD   89.126602   ERROR  9.3177e-07
 ====================
 Run  121
-X:   33.818342
-Y:  128.775290
+X:    1.125554
+Y:    4.200718
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.7327e+03: [1]  RCOSA
-  6.5979e+03: [2]  RSINA
+   57.668421: [1]  RCOSA
+  215.226210: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5683,19 +5683,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.4108e+03   ERROR  8.1709e-05
+RMS OPD  111.409135   ERROR      --    
 ====================
 Run  122
-X:   40.609419
-Y:  156.041611
+X:    1.350666
+Y:    5.040914
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.0806e+03: [1]  RCOSA
-  7.9949e+03: [2]  RSINA
+   69.202157: [1]  RCOSA
+  258.274143: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5730,19 +5730,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.1306e+03   ERROR    0.000111
+RMS OPD  133.692263   ERROR      --    
 ====================
 Run  123
-X:   47.415512
-Y:  184.186198
+X:    1.575779
+Y:    5.881139
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.4294e+03: [1]  RCOSA
-  9.4369e+03: [2]  RSINA
+   80.735922: [1]  RCOSA
+  301.323545: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5777,19 +5777,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8723e+03   ERROR    0.000170
+RMS OPD  155.976105   ERROR      --    
 ====================
 Run  124
-X:   54.239180
-Y:  213.403971
+X:    1.800892
+Y:    6.721397
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.7790e+03: [1]  RCOSA
-  1.0934e+04: [2]  RSINA
+   92.269719: [1]  RCOSA
+  344.374660: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5824,19 +5824,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.6408e+03   ERROR    0.000225
+RMS OPD  178.260778   ERROR      --    
 ====================
 Run  125
-X:   61.083010
-Y:  243.916501
+X:    2.026005
+Y:    7.561694
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  3.1296e+03: [1]  RCOSA
-  1.2497e+04: [2]  RSINA
+  103.803554: [1]  RCOSA
+  387.427733: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5871,19 +5871,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.4416e+03   ERROR  8.4264e-05
+RMS OPD  200.546403   ERROR  5.3164e-06
 ====================
 Run  126
-X:   67.949614
-Y:  275.979402
+X:    2.251120
+Y:    8.402033
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  3.4814e+03: [1]  RCOSA
-  1.4140e+04: [2]  RSINA
+  115.337431: [1]  RCOSA
+  430.483008: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5918,11 +5918,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.2811e+03   ERROR      --    
+RMS OPD  222.833097   ERROR      --    
 ====================
 Run  127
-X:  2.7041e-11
-Y: -287.714312
+X:  9.0136e-13
+Y:   -8.698484
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -5930,7 +5930,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
- -1.4741e+04: [2]  RSINA
+ -445.671836: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -5965,11 +5965,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.3706e+03   ERROR    0.000112
+RMS OPD  222.835925   ERROR      --    
 ====================
 Run  128
-X:  2.4337e-11
-Y: -253.914776
+X:  8.1123e-13
+Y:   -7.828484
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -5977,7 +5977,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
- -1.3009e+04: [2]  RSINA
+ -401.096914: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6012,11 +6012,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.5047e+03   ERROR    0.000207
+RMS OPD  200.548465   ERROR      --    
 ====================
 Run  129
-X:  2.1633e-11
-Y: -221.873396
+X:  7.2109e-13
+Y:   -6.958533
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6024,7 +6024,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
- -1.1368e+04: [2]  RSINA
+ -356.524435: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6059,11 +6059,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.6839e+03   ERROR      --    
+RMS OPD  178.262227   ERROR  5.6779e-06
 ====================
 Run  130
-X:  1.8929e-11
-Y: -191.293194
+X:  6.3095e-13
+Y:   -6.088623
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6071,7 +6071,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
- -9.8010e+03: [2]  RSINA
+ -311.954129: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6106,11 +6106,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.9005e+03   ERROR      --    
+RMS OPD  155.977075   ERROR      --    
 ====================
 Run  131
-X:  1.6225e-11
-Y: -161.919119
+X:  5.4082e-13
+Y:   -5.218751
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6118,7 +6118,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
- -8.2960e+03: [2]  RSINA
+ -267.385724: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6153,11 +6153,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.1480e+03   ERROR      --    
+RMS OPD  133.692874   ERROR  1.8784e-06
 ====================
 Run  132
-X:  1.3520e-11
-Y: -133.528677
+X:  4.5068e-13
+Y:   -4.348911
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6165,7 +6165,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
- -6.8414e+03: [2]  RSINA
+ -222.818947: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6200,11 +6200,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.4207e+03   ERROR    0.000169
+RMS OPD  111.409488   ERROR  1.2878e-06
 ====================
 Run  133
-X:  1.0816e-11
-Y: -105.924546
+X:  3.6055e-13
+Y:   -3.479097
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6212,7 +6212,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
- -5.4271e+03: [2]  RSINA
+ -178.253529: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6247,11 +6247,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.7136e+03   ERROR  3.3957e-05
+RMS OPD   89.126783   ERROR  2.8349e-06
 ====================
 Run  134
-X:  8.1123e-12
-Y:  -78.928638
+X:  2.7041e-13
+Y:   -2.609304
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6259,7 +6259,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
- -4.0440e+03: [2]  RSINA
+ -133.689196: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6294,11 +6294,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0220e+03   ERROR      --    
+RMS OPD   66.844622   ERROR      --    
 ====================
 Run  135
-X:  5.4082e-12
-Y:  -52.377204
+X:  1.8027e-13
+Y:   -1.739527
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6306,7 +6306,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
- -2.6836e+03: [2]  RSINA
+  -89.125678: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6341,11 +6341,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3418e+03   ERROR      --    
+RMS OPD   44.562876   ERROR  1.7188e-06
 ====================
 Run  136
-X:  2.7041e-12
-Y:  -26.116673
+X:  9.0136e-14
+Y:   -0.869761
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6353,7 +6353,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
- -1.3381e+03: [2]  RSINA
+  -44.562703: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6388,7 +6388,7 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  669.051402   ERROR  1.1038e-05
+RMS OPD   22.281425   ERROR      --    
 ====================
 Run  137
 X:    0.0
@@ -6438,8 +6438,8 @@ Z:    0.0
 RMS OPD    0.056957   ERROR  3.0928e-09
 ====================
 Run  138
-X: -2.7041e-12
-Y:   26.116673
+X: -9.0136e-14
+Y:    0.869761
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6447,7 +6447,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
-  1.3381e+03: [2]  RSINA
+   44.562703: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6482,11 +6482,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  669.051402   ERROR  8.4712e-06
+RMS OPD   22.281425   ERROR      --    
 ====================
 Run  139
-X: -5.4082e-12
-Y:   52.377204
+X: -1.8027e-13
+Y:    1.739527
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6494,7 +6494,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
-  2.6836e+03: [2]  RSINA
+   89.125678: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6529,11 +6529,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3418e+03   ERROR      --    
+RMS OPD   44.562876   ERROR  2.0791e-06
 ====================
 Run  140
-X: -8.1123e-12
-Y:   78.928638
+X: -2.7041e-13
+Y:    2.609304
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6541,7 +6541,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
-  4.0440e+03: [2]  RSINA
+  133.689196: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6576,11 +6576,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0220e+03   ERROR  5.0438e-05
+RMS OPD   66.844622   ERROR      --    
 ====================
 Run  141
-X: -1.0816e-11
-Y:  105.924546
+X: -3.6055e-13
+Y:    3.479097
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6588,7 +6588,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
-  5.4271e+03: [2]  RSINA
+  178.253529: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6623,11 +6623,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.7136e+03   ERROR      --    
+RMS OPD   89.126783   ERROR      --    
 ====================
 Run  142
-X: -1.3520e-11
-Y:  133.528677
+X: -4.5068e-13
+Y:    4.348911
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6635,7 +6635,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
-  6.8414e+03: [2]  RSINA
+  222.818947: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6670,11 +6670,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.4207e+03   ERROR      --    
+RMS OPD  111.409488   ERROR  3.2495e-06
 ====================
 Run  143
-X: -1.6225e-11
-Y:  161.919119
+X: -5.4082e-13
+Y:    5.218751
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6682,7 +6682,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
-  8.2960e+03: [2]  RSINA
+  267.385724: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6717,11 +6717,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.1480e+03   ERROR      --    
+RMS OPD  133.692874   ERROR      --    
 ====================
 Run  144
-X: -1.8929e-11
-Y:  191.293194
+X: -6.3095e-13
+Y:    6.088623
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6729,7 +6729,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
-  9.8010e+03: [2]  RSINA
+  311.954129: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6764,11 +6764,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.9005e+03   ERROR  8.1375e-05
+RMS OPD  155.977075   ERROR      --    
 ====================
 Run  145
-X: -2.1633e-11
-Y:  221.873396
+X: -7.2109e-13
+Y:    6.958533
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6776,7 +6776,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
-  1.1368e+04: [2]  RSINA
+  356.524435: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6811,11 +6811,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.6839e+03   ERROR      --    
+RMS OPD  178.262227   ERROR  6.8277e-06
 ====================
 Run  146
-X: -2.4337e-11
-Y:  253.914776
+X: -8.1123e-13
+Y:    7.828484
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6823,7 +6823,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
-  1.3009e+04: [2]  RSINA
+  401.096914: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6858,11 +6858,11 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.5047e+03   ERROR      --    
+RMS OPD  200.548465   ERROR  5.1791e-06
 ====================
 Run  147
-X: -2.7041e-11
-Y:  287.714312
+X: -9.0136e-13
+Y:    8.698484
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
@@ -6870,7 +6870,7 @@ Z:    0.0
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
       --    : [1]  RCOSA
-  1.4741e+04: [2]  RSINA
+  445.671836: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6905,19 +6905,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.3706e+03   ERROR      --    
+RMS OPD  222.835925   ERROR      --    
 ====================
 Run  148
-X:   67.949614
-Y: -275.979402
+X:    2.251120
+Y:   -8.402033
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  3.4814e+03: [1]  RCOSA
- -1.4140e+04: [2]  RSINA
+  115.337431: [1]  RCOSA
+ -430.483008: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6952,19 +6952,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.2811e+03   ERROR      --    
+RMS OPD  222.833097   ERROR  7.5255e-06
 ====================
 Run  149
-X:   61.083010
-Y: -243.916501
+X:    2.026005
+Y:   -7.561694
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  3.1296e+03: [1]  RCOSA
- -1.2497e+04: [2]  RSINA
+  103.803554: [1]  RCOSA
+ -387.427733: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -6999,19 +6999,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.4416e+03   ERROR    0.000116
+RMS OPD  200.546403   ERROR  3.6807e-06
 ====================
 Run  150
-X:   54.239180
-Y: -213.403971
+X:    1.800892
+Y:   -6.721397
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.7790e+03: [1]  RCOSA
- -1.0934e+04: [2]  RSINA
+   92.269719: [1]  RCOSA
+ -344.374660: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7046,19 +7046,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.6408e+03   ERROR  8.0527e-05
+RMS OPD  178.260778   ERROR      --    
 ====================
 Run  151
-X:   47.415512
-Y: -184.186198
+X:    1.575779
+Y:   -5.881139
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.4294e+03: [1]  RCOSA
- -9.4369e+03: [2]  RSINA
+   80.735922: [1]  RCOSA
+ -301.323545: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7093,19 +7093,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8723e+03   ERROR  7.9991e-05
+RMS OPD  155.976105   ERROR      --    
 ====================
 Run  152
-X:   40.609419
-Y: -156.041611
+X:    1.350666
+Y:   -5.040914
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.0806e+03: [1]  RCOSA
- -7.9949e+03: [2]  RSINA
+   69.202157: [1]  RCOSA
+ -258.274143: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7140,19 +7140,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.1306e+03   ERROR    0.000146
+RMS OPD  133.692263   ERROR  3.7986e-06
 ====================
 Run  153
-X:   33.818342
-Y: -128.775290
+X:    1.125554
+Y:   -4.200718
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.7327e+03: [1]  RCOSA
- -6.5979e+03: [2]  RSINA
+   57.668421: [1]  RCOSA
+ -215.226210: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7187,19 +7187,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.4108e+03   ERROR  3.2550e-05
+RMS OPD  111.409135   ERROR      --    
 ====================
 Run  154
-X:   27.039746
-Y: -102.213072
+X:    0.900443
+Y:   -3.360546
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.3854e+03: [1]  RCOSA
- -5.2369e+03: [2]  RSINA
+   46.134709: [1]  RCOSA
+ -172.179500: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7234,19 +7234,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.7085e+03   ERROR  4.4430e-05
+RMS OPD   89.126602   ERROR  2.4870e-06
 ====================
 Run  155
-X:   20.271112
-Y:  -76.196746
+X:    0.675332
+Y:   -2.520393
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.0386e+03: [1]  RCOSA
- -3.9040e+03: [2]  RSINA
+   34.601015: [1]  RCOSA
+ -129.133768: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7281,19 +7281,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0199e+03   ERROR      --    
+RMS OPD   66.844546   ERROR      --    
 ====================
 Run  156
-X:   13.509936
-Y:  -50.580046
+X:    0.450221
+Y:   -1.680254
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  692.189381: [1]  RCOSA
- -2.5915e+03: [2]  RSINA
+   23.067336: [1]  RCOSA
+  -86.088771: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7328,19 +7328,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3412e+03   ERROR  1.8152e-05
+RMS OPD   44.562853   ERROR      --    
 ====================
 Run  157
-X:    6.753728
-Y:  -25.225223
+X:    0.225110
+Y:   -0.840125
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  346.031123: [1]  RCOSA
- -1.2924e+03: [2]  RSINA
+   11.533665: [1]  RCOSA
+  -43.044263: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7375,7 +7375,7 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.974932   ERROR      --    
+RMS OPD   22.281422   ERROR      --    
 ====================
 Run  158
 X:    0.0
@@ -7425,16 +7425,16 @@ Z:    0.0
 RMS OPD    0.056957   ERROR  3.0928e-09
 ====================
 Run  159
-X:   -6.753728
-Y:   25.225223
+X:   -0.225110
+Y:    0.840125
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -346.031123: [1]  RCOSA
-  1.2924e+03: [2]  RSINA
+  -11.533665: [1]  RCOSA
+   43.044263: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7469,19 +7469,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.974932   ERROR  7.9288e-06
+RMS OPD   22.281422   ERROR  6.4211e-07
 ====================
 Run  160
-X:  -13.509936
-Y:   50.580046
+X:   -0.450221
+Y:    1.680254
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -692.189381: [1]  RCOSA
-  2.5915e+03: [2]  RSINA
+  -23.067336: [1]  RCOSA
+   86.088771: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7516,19 +7516,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3412e+03   ERROR      --    
+RMS OPD   44.562853   ERROR  1.5249e-06
 ====================
 Run  161
-X:  -20.271112
-Y:   76.196746
+X:   -0.675332
+Y:    2.520393
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.0386e+03: [1]  RCOSA
-  3.9040e+03: [2]  RSINA
+  -34.601015: [1]  RCOSA
+  129.133768: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7563,19 +7563,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0199e+03   ERROR      --    
+RMS OPD   66.844546   ERROR      --    
 ====================
 Run  162
-X:  -27.039746
-Y:  102.213072
+X:   -0.900443
+Y:    3.360546
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.3854e+03: [1]  RCOSA
-  5.2369e+03: [2]  RSINA
+  -46.134709: [1]  RCOSA
+  172.179500: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7610,19 +7610,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.7085e+03   ERROR  6.9757e-05
+RMS OPD   89.126602   ERROR      --    
 ====================
 Run  163
-X:  -33.818342
-Y:  128.775290
+X:   -1.125554
+Y:    4.200718
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.7327e+03: [1]  RCOSA
-  6.5979e+03: [2]  RSINA
+  -57.668421: [1]  RCOSA
+  215.226210: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7657,19 +7657,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.4108e+03   ERROR  9.2121e-05
+RMS OPD  111.409135   ERROR      --    
 ====================
 Run  164
-X:  -40.609419
-Y:  156.041611
+X:   -1.350666
+Y:    5.040914
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.0806e+03: [1]  RCOSA
-  7.9949e+03: [2]  RSINA
+  -69.202157: [1]  RCOSA
+  258.274143: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7704,19 +7704,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.1306e+03   ERROR      --    
+RMS OPD  133.692263   ERROR      --    
 ====================
 Run  165
-X:  -47.415512
-Y:  184.186198
+X:   -1.575779
+Y:    5.881139
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.4294e+03: [1]  RCOSA
-  9.4369e+03: [2]  RSINA
+  -80.735922: [1]  RCOSA
+  301.323545: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7751,19 +7751,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8723e+03   ERROR    0.000120
+RMS OPD  155.976105   ERROR      --    
 ====================
 Run  166
-X:  -54.239180
-Y:  213.403971
+X:   -1.800892
+Y:    6.721397
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.7790e+03: [1]  RCOSA
-  1.0934e+04: [2]  RSINA
+  -92.269719: [1]  RCOSA
+  344.374660: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7798,19 +7798,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.6408e+03   ERROR      --    
+RMS OPD  178.260778   ERROR      --    
 ====================
 Run  167
-X:  -61.083010
-Y:  243.916501
+X:   -2.026005
+Y:    7.561694
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -3.1296e+03: [1]  RCOSA
-  1.2497e+04: [2]  RSINA
+ -103.803554: [1]  RCOSA
+  387.427733: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7845,19 +7845,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.4416e+03   ERROR      --    
+RMS OPD  200.546403   ERROR      --    
 ====================
 Run  168
-X:  -67.949614
-Y:  275.979402
+X:   -2.251120
+Y:    8.402033
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -3.4814e+03: [1]  RCOSA
-  1.4140e+04: [2]  RSINA
+ -115.337431: [1]  RCOSA
+  430.483008: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7892,19 +7892,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.2811e+03   ERROR    0.000117
+RMS OPD  222.833097   ERROR      --    
 ====================
 Run  169
-X:  133.528677
-Y: -242.847520
+X:    4.348911
+Y:   -7.532917
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  6.8414e+03: [1]  RCOSA
- -1.2442e+04: [2]  RSINA
+  222.818947: [1]  RCOSA
+ -385.953333: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7939,19 +7939,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.0996e+03   ERROR  7.6443e-05
+RMS OPD  222.827440   ERROR      --    
 ====================
 Run  170
-X:  119.639842
-Y: -215.470393
+X:    3.914001
+Y:   -6.779527
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  6.1298e+03: [1]  RCOSA
- -1.1040e+04: [2]  RSINA
+  200.536085: [1]  RCOSA
+ -347.352974: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -7986,19 +7986,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.3137e+03   ERROR      --    
+RMS OPD  200.542279   ERROR  3.3085e-06
 ====================
 Run  171
-X:  105.924546
-Y: -189.146857
+X:    3.479097
+Y:   -6.026168
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  5.4271e+03: [1]  RCOSA
- -9.6910e+03: [2]  RSINA
+  178.253529: [1]  RCOSA
+ -308.754201: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8033,19 +8033,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.5536e+03   ERROR      --    
+RMS OPD  178.257882   ERROR      --    
 ====================
 Run  172
-X:   92.361083
-Y: -163.714699
+X:    3.044198
+Y:   -5.272837
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  4.7322e+03: [1]  RCOSA
- -8.3880e+03: [2]  RSINA
+  155.971244: [1]  RCOSA
+ -270.156840: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8080,19 +8080,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8154e+03   ERROR      --    
+RMS OPD  155.974165   ERROR      --    
 ====================
 Run  173
-X:   78.928638
-Y: -139.029643
+X:    2.609304
+Y:   -4.519530
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  4.0440e+03: [1]  RCOSA
- -7.1233e+03: [2]  RSINA
+  133.689196: [1]  RCOSA
+ -231.560713: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8127,19 +8127,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.0956e+03   ERROR    0.000119
+RMS OPD  133.691041   ERROR      --    
 ====================
 Run  174
-X:   65.607154
-Y: -114.961769
+X:    2.174414
+Y:   -3.766243
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  3.3614e+03: [1]  RCOSA
- -5.8901e+03: [2]  RSINA
+  111.407353: [1]  RCOSA
+ -192.965644: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8174,19 +8174,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.3909e+03   ERROR      --    
+RMS OPD  111.408428   ERROR  3.5507e-07
 ====================
 Run  175
-X:   52.377204
-Y:  -91.392554
+X:    1.739527
+Y:   -3.012974
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.6836e+03: [1]  RCOSA
- -4.6826e+03: [2]  RSINA
+   89.125678: [1]  RCOSA
+ -154.371457: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8221,19 +8221,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.6985e+03   ERROR  7.5983e-05
+RMS OPD   89.126240   ERROR      --    
 ====================
 Run  176
-X:   39.219879
-Y:  -68.212376
+X:    1.304643
+Y:   -2.259718
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.0095e+03: [1]  RCOSA
- -3.4949e+03: [2]  RSINA
+   66.844140: [1]  RCOSA
+ -115.777976: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8268,19 +8268,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0157e+03   ERROR  1.7878e-05
+RMS OPD   66.844393   ERROR      --    
 ====================
 Run  177
-X:   26.116673
-Y:  -45.318370
+X:    0.869761
+Y:   -1.506473
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.3381e+03: [1]  RCOSA
- -2.3219e+03: [2]  RSINA
+   44.562703: [1]  RCOSA
+  -77.185023: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8315,19 +8315,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3399e+03   ERROR      --    
+RMS OPD   44.562808   ERROR      --    
 ====================
 Run  178
-X:   13.049382
-Y:  -22.612530
+X:    0.434880
+Y:   -0.753235
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  668.592629: [1]  RCOSA
- -1.1586e+03: [2]  RSINA
+   22.281335: [1]  RCOSA
+  -38.592423: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8362,7 +8362,7 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.821967   ERROR      --    
+RMS OPD   22.281416   ERROR      --    
 ====================
 Run  179
 X:    0.0
@@ -8412,16 +8412,16 @@ Z:    0.0
 RMS OPD    0.056957   ERROR  3.0928e-09
 ====================
 Run  180
-X:  -13.049382
-Y:   22.612530
+X:   -0.434880
+Y:    0.753235
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -668.592629: [1]  RCOSA
-  1.1586e+03: [2]  RSINA
+  -22.281335: [1]  RCOSA
+   38.592423: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8456,19 +8456,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.821967   ERROR      --    
+RMS OPD   22.281416   ERROR  8.9739e-07
 ====================
 Run  181
-X:  -26.116673
-Y:   45.318370
+X:   -0.869761
+Y:    1.506473
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.3381e+03: [1]  RCOSA
-  2.3219e+03: [2]  RSINA
+  -44.562703: [1]  RCOSA
+   77.185023: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8503,19 +8503,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3399e+03   ERROR      --    
+RMS OPD   44.562808   ERROR      --    
 ====================
 Run  182
-X:  -39.219879
-Y:   68.212376
+X:   -1.304643
+Y:    2.259718
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.0095e+03: [1]  RCOSA
-  3.4949e+03: [2]  RSINA
+  -66.844140: [1]  RCOSA
+  115.777976: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8550,19 +8550,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0157e+03   ERROR      --    
+RMS OPD   66.844393   ERROR  2.0470e-06
 ====================
 Run  183
-X:  -52.377204
-Y:   91.392554
+X:   -1.739527
+Y:    3.012974
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.6836e+03: [1]  RCOSA
-  4.6826e+03: [2]  RSINA
+  -89.125678: [1]  RCOSA
+  154.371457: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8597,19 +8597,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.6985e+03   ERROR  5.5551e-05
+RMS OPD   89.126240   ERROR      --    
 ====================
 Run  184
-X:  -65.607154
-Y:  114.961769
+X:   -2.174414
+Y:    3.766243
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -3.3614e+03: [1]  RCOSA
-  5.8901e+03: [2]  RSINA
+ -111.407353: [1]  RCOSA
+  192.965644: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8644,19 +8644,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.3909e+03   ERROR  8.1975e-05
+RMS OPD  111.408428   ERROR      --    
 ====================
 Run  185
-X:  -78.928638
-Y:  139.029643
+X:   -2.609304
+Y:    4.519530
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -4.0440e+03: [1]  RCOSA
-  7.1233e+03: [2]  RSINA
+ -133.689196: [1]  RCOSA
+  231.560713: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8691,19 +8691,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.0956e+03   ERROR      --    
+RMS OPD  133.691041   ERROR  4.2463e-06
 ====================
 Run  186
-X:  -92.361083
-Y:  163.714699
+X:   -3.044198
+Y:    5.272837
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -4.7322e+03: [1]  RCOSA
-  8.3880e+03: [2]  RSINA
+ -155.971244: [1]  RCOSA
+  270.156840: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8738,19 +8738,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8154e+03   ERROR    0.000180
+RMS OPD  155.974165   ERROR  3.7978e-06
 ====================
 Run  187
-X: -105.924546
-Y:  189.146857
+X:   -3.479097
+Y:    6.026168
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -5.4271e+03: [1]  RCOSA
-  9.6910e+03: [2]  RSINA
+ -178.253529: [1]  RCOSA
+  308.754201: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8785,19 +8785,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.5536e+03   ERROR    0.000171
+RMS OPD  178.257882   ERROR  1.8876e-06
 ====================
 Run  188
-X: -119.639842
-Y:  215.470393
+X:   -3.914001
+Y:    6.779527
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -6.1298e+03: [1]  RCOSA
-  1.1040e+04: [2]  RSINA
+ -200.536085: [1]  RCOSA
+  347.352974: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8832,19 +8832,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.3137e+03   ERROR      --    
+RMS OPD  200.542279   ERROR      --    
 ====================
 Run  189
-X: -133.528677
-Y:  242.847520
+X:   -4.348911
+Y:    7.532917
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -6.8414e+03: [1]  RCOSA
-  1.2442e+04: [2]  RSINA
+ -222.818947: [1]  RCOSA
+  385.953333: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8879,19 +8879,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.0996e+03   ERROR    0.000227
+RMS OPD  222.827440   ERROR      --    
 ====================
 Run  190
-X:  193.423848
-Y: -193.423848
+X:    6.150445
+Y:   -6.150445
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  9.9102e+03: [1]  RCOSA
- -9.9102e+03: [2]  RSINA
+  315.121577: [1]  RCOSA
+ -315.121577: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8926,19 +8926,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.0076e+03   ERROR      --    
+RMS OPD  222.824611   ERROR      --    
 ====================
 Run  191
-X:  172.485186
-Y: -172.485186
+X:    5.535347
+Y:   -5.535347
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  8.8374e+03: [1]  RCOSA
- -8.8374e+03: [2]  RSINA
+  283.606683: [1]  RCOSA
+ -283.606683: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -8973,19 +8973,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.2490e+03   ERROR      --    
+RMS OPD  200.540217   ERROR      --    
 ====================
 Run  192
-X:  152.076625
-Y: -152.076625
+X:    4.920266
+Y:   -4.920266
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  7.7917e+03: [1]  RCOSA
- -7.7917e+03: [2]  RSINA
+  252.092654: [1]  RCOSA
+ -252.092654: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9020,19 +9020,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.5096e+03   ERROR      --    
+RMS OPD  178.256434   ERROR      --    
 ====================
 Run  193
-X:  132.124293
-Y: -132.124293
+X:    4.305200
+Y:   -4.305200
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  6.7695e+03: [1]  RCOSA
- -6.7695e+03: [2]  RSINA
+  220.579392: [1]  RCOSA
+ -220.579392: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9067,19 +9067,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.7867e+03   ERROR    0.000102
+RMS OPD  155.973194   ERROR      --    
 ====================
 Run  194
-X:  112.560041
-Y: -112.560041
+X:    3.690147
+Y:   -3.690147
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  5.7671e+03: [1]  RCOSA
- -5.7671e+03: [2]  RSINA
+  189.066803: [1]  RCOSA
+ -189.066803: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9114,19 +9114,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.0779e+03   ERROR      --    
+RMS OPD  133.690430   ERROR  4.0523e-06
 ====================
 Run  195
-X:   93.320443
-Y:  -93.320443
+X:    3.075105
+Y:   -3.075105
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  4.7813e+03: [1]  RCOSA
- -4.7813e+03: [2]  RSINA
+  157.554789: [1]  RCOSA
+ -157.554789: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9161,19 +9161,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.3809e+03   ERROR      --    
+RMS OPD  111.408074   ERROR  2.7171e-06
 ====================
 Run  196
-X:   74.345914
-Y:  -74.345914
+X:    2.460073
+Y:   -2.460073
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  3.8092e+03: [1]  RCOSA
- -3.8092e+03: [2]  RSINA
+  126.043255: [1]  RCOSA
+ -126.043255: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9208,19 +9208,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.6935e+03   ERROR      --    
+RMS OPD   89.126059   ERROR  3.9705e-07
 ====================
 Run  197
-X:   55.579943
-Y:  -55.579943
+X:    1.845048
+Y:   -1.845048
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.8477e+03: [1]  RCOSA
- -2.8477e+03: [2]  RSINA
+   94.532105: [1]  RCOSA
+  -94.532105: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9255,19 +9255,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0136e+03   ERROR  1.0022e-05
+RMS OPD   66.844317   ERROR      --    
 ====================
 Run  198
-X:   36.968386
-Y:  -36.968386
+X:    1.230029
+Y:   -1.230029
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.8941e+03: [1]  RCOSA
- -1.8941e+03: [2]  RSINA
+   63.021244: [1]  RCOSA
+  -63.021244: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9302,19 +9302,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3393e+03   ERROR      --    
+RMS OPD   44.562785   ERROR      --    
 ====================
 Run  199
-X:   18.458832
-Y:  -18.458832
+X:    0.615014
+Y:   -0.615014
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  945.748912: [1]  RCOSA
- -945.748912: [2]  RSINA
+   31.510574: [1]  RCOSA
+  -31.510574: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9349,7 +9349,7 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.745471   ERROR      --    
+RMS OPD   22.281413   ERROR      --    
 ====================
 Run  200
 X:    0.0
@@ -9399,16 +9399,16 @@ Z:    0.0
 RMS OPD    0.056957   ERROR  3.0928e-09
 ====================
 Run  201
-X:  -18.458832
-Y:   18.458832
+X:   -0.615014
+Y:    0.615014
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -945.748912: [1]  RCOSA
-  945.748912: [2]  RSINA
+  -31.510574: [1]  RCOSA
+   31.510574: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9443,19 +9443,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.745471   ERROR      --    
+RMS OPD   22.281413   ERROR      --    
 ====================
 Run  202
-X:  -36.968386
-Y:   36.968386
+X:   -1.230029
+Y:    1.230029
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.8941e+03: [1]  RCOSA
-  1.8941e+03: [2]  RSINA
+  -63.021244: [1]  RCOSA
+   63.021244: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9490,19 +9490,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3393e+03   ERROR      --    
+RMS OPD   44.562785   ERROR  1.1514e-06
 ====================
 Run  203
-X:  -55.579943
-Y:   55.579943
+X:   -1.845048
+Y:    1.845048
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.8477e+03: [1]  RCOSA
-  2.8477e+03: [2]  RSINA
+  -94.532105: [1]  RCOSA
+   94.532105: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9537,19 +9537,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0136e+03   ERROR      --    
+RMS OPD   66.844317   ERROR      --    
 ====================
 Run  204
-X:  -74.345914
-Y:   74.345914
+X:   -2.460073
+Y:    2.460073
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -3.8092e+03: [1]  RCOSA
-  3.8092e+03: [2]  RSINA
+ -126.043255: [1]  RCOSA
+  126.043255: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9584,19 +9584,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.6935e+03   ERROR      --    
+RMS OPD   89.126059   ERROR      --    
 ====================
 Run  205
-X:  -93.320443
-Y:   93.320443
+X:   -3.075105
+Y:    3.075105
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -4.7813e+03: [1]  RCOSA
-  4.7813e+03: [2]  RSINA
+ -157.554789: [1]  RCOSA
+  157.554789: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9631,19 +9631,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.3809e+03   ERROR      --    
+RMS OPD  111.408074   ERROR      --    
 ====================
 Run  206
-X: -112.560041
-Y:  112.560041
+X:   -3.690147
+Y:    3.690147
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -5.7671e+03: [1]  RCOSA
-  5.7671e+03: [2]  RSINA
+ -189.066803: [1]  RCOSA
+  189.066803: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9678,19 +9678,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.0779e+03   ERROR    0.000148
+RMS OPD  133.690430   ERROR  3.0267e-06
 ====================
 Run  207
-X: -132.124293
-Y:  132.124293
+X:   -4.305200
+Y:    4.305200
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -6.7695e+03: [1]  RCOSA
-  6.7695e+03: [2]  RSINA
+ -220.579392: [1]  RCOSA
+  220.579392: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9725,19 +9725,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.7867e+03   ERROR      --    
+RMS OPD  155.973194   ERROR      --    
 ====================
 Run  208
-X: -152.076625
-Y:  152.076625
+X:   -4.920266
+Y:    4.920266
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -7.7917e+03: [1]  RCOSA
-  7.7917e+03: [2]  RSINA
+ -252.092654: [1]  RCOSA
+  252.092654: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9772,19 +9772,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.5096e+03   ERROR    0.000159
+RMS OPD  178.256434   ERROR      --    
 ====================
 Run  209
-X: -172.485186
-Y:  172.485186
+X:   -5.535347
+Y:    5.535347
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -8.8374e+03: [1]  RCOSA
-  8.8374e+03: [2]  RSINA
+ -283.606683: [1]  RCOSA
+  283.606683: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9819,19 +9819,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.2490e+03   ERROR    0.000207
+RMS OPD  200.540217   ERROR  6.2965e-06
 ====================
 Run  210
-X: -193.423848
-Y:  193.423848
+X:   -6.150445
+Y:    6.150445
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -9.9102e+03: [1]  RCOSA
-  9.9102e+03: [2]  RSINA
+ -315.121577: [1]  RCOSA
+  315.121577: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9866,19 +9866,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.0076e+03   ERROR      --    
+RMS OPD  222.824611   ERROR  3.9137e-06
 ====================
 Run  211
-X:  242.847520
-Y: -133.528677
+X:    7.532917
+Y:   -4.348911
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.2442e+04: [1]  RCOSA
- -6.8414e+03: [2]  RSINA
+  385.953333: [1]  RCOSA
+ -222.818947: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9913,19 +9913,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.0996e+03   ERROR      --    
+RMS OPD  222.827440   ERROR      --    
 ====================
 Run  212
-X:  215.470393
-Y: -119.639842
+X:    6.779527
+Y:   -3.914001
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.1040e+04: [1]  RCOSA
- -6.1298e+03: [2]  RSINA
+  347.352974: [1]  RCOSA
+ -200.536085: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -9960,19 +9960,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.3137e+03   ERROR    0.000140
+RMS OPD  200.542279   ERROR  4.8327e-06
 ====================
 Run  213
-X:  189.146857
-Y: -105.924546
+X:    6.026168
+Y:   -3.479097
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  9.6910e+03: [1]  RCOSA
- -5.4271e+03: [2]  RSINA
+  308.754201: [1]  RCOSA
+ -178.253529: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10007,19 +10007,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.5536e+03   ERROR      --    
+RMS OPD  178.257882   ERROR      --    
 ====================
 Run  214
-X:  163.714699
-Y:  -92.361083
+X:    5.272837
+Y:   -3.044198
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  8.3880e+03: [1]  RCOSA
- -4.7322e+03: [2]  RSINA
+  270.156840: [1]  RCOSA
+ -155.971244: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10054,19 +10054,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8154e+03   ERROR  2.4518e-05
+RMS OPD  155.974165   ERROR      --    
 ====================
 Run  215
-X:  139.029643
-Y:  -78.928638
+X:    4.519530
+Y:   -2.609304
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  7.1233e+03: [1]  RCOSA
- -4.0440e+03: [2]  RSINA
+  231.560713: [1]  RCOSA
+ -133.689196: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10101,19 +10101,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.0956e+03   ERROR  1.6099e-05
+RMS OPD  133.691041   ERROR      --    
 ====================
 Run  216
-X:  114.961769
-Y:  -65.607154
+X:    3.766243
+Y:   -2.174414
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  5.8901e+03: [1]  RCOSA
- -3.3614e+03: [2]  RSINA
+  192.965644: [1]  RCOSA
+ -111.407353: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10148,19 +10148,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.3909e+03   ERROR      --    
+RMS OPD  111.408428   ERROR  3.0190e-06
 ====================
 Run  217
-X:   91.392554
-Y:  -52.377204
+X:    3.012974
+Y:   -1.739527
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  4.6826e+03: [1]  RCOSA
- -2.6836e+03: [2]  RSINA
+  154.371457: [1]  RCOSA
+  -89.125678: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10195,19 +10195,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.6985e+03   ERROR      --    
+RMS OPD   89.126240   ERROR  3.2733e-06
 ====================
 Run  218
-X:   68.212376
-Y:  -39.219879
+X:    2.259718
+Y:   -1.304643
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  3.4949e+03: [1]  RCOSA
- -2.0095e+03: [2]  RSINA
+  115.777976: [1]  RCOSA
+  -66.844140: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10242,19 +10242,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0157e+03   ERROR  1.3595e-05
+RMS OPD   66.844393   ERROR  9.9790e-07
 ====================
 Run  219
-X:   45.318370
-Y:  -26.116673
+X:    1.506473
+Y:   -0.869761
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.3219e+03: [1]  RCOSA
- -1.3381e+03: [2]  RSINA
+   77.185023: [1]  RCOSA
+  -44.562703: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10289,19 +10289,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3399e+03   ERROR      --    
+RMS OPD   44.562808   ERROR      --    
 ====================
 Run  220
-X:   22.612530
-Y:  -13.049382
+X:    0.753235
+Y:   -0.434880
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.1586e+03: [1]  RCOSA
- -668.592629: [2]  RSINA
+   38.592423: [1]  RCOSA
+  -22.281335: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10336,7 +10336,7 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.821967   ERROR      --    
+RMS OPD   22.281416   ERROR      --    
 ====================
 Run  221
 X:    0.0
@@ -10386,16 +10386,16 @@ Z:    0.0
 RMS OPD    0.056957   ERROR  3.0928e-09
 ====================
 Run  222
-X:  -22.612530
-Y:   13.049382
+X:   -0.753235
+Y:    0.434880
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.1586e+03: [1]  RCOSA
-  668.592629: [2]  RSINA
+  -38.592423: [1]  RCOSA
+   22.281335: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10430,19 +10430,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.821967   ERROR      --    
+RMS OPD   22.281416   ERROR      --    
 ====================
 Run  223
-X:  -45.318370
-Y:   26.116673
+X:   -1.506473
+Y:    0.869761
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.3219e+03: [1]  RCOSA
-  1.3381e+03: [2]  RSINA
+  -77.185023: [1]  RCOSA
+   44.562703: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10477,19 +10477,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3399e+03   ERROR      --    
+RMS OPD   44.562808   ERROR  4.2903e-07
 ====================
 Run  224
-X:  -68.212376
-Y:   39.219879
+X:   -2.259718
+Y:    1.304643
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -3.4949e+03: [1]  RCOSA
-  2.0095e+03: [2]  RSINA
+ -115.777976: [1]  RCOSA
+   66.844140: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10524,19 +10524,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0157e+03   ERROR  1.3965e-05
+RMS OPD   66.844393   ERROR      --    
 ====================
 Run  225
-X:  -91.392554
-Y:   52.377204
+X:   -3.012974
+Y:    1.739527
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -4.6826e+03: [1]  RCOSA
-  2.6836e+03: [2]  RSINA
+ -154.371457: [1]  RCOSA
+   89.125678: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10571,19 +10571,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.6985e+03   ERROR      --    
+RMS OPD   89.126240   ERROR  3.6246e-06
 ====================
 Run  226
-X: -114.961769
-Y:   65.607154
+X:   -3.766243
+Y:    2.174414
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -5.8901e+03: [1]  RCOSA
-  3.3614e+03: [2]  RSINA
+ -192.965644: [1]  RCOSA
+  111.407353: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10618,19 +10618,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.3909e+03   ERROR      --    
+RMS OPD  111.408428   ERROR      --    
 ====================
 Run  227
-X: -139.029643
-Y:   78.928638
+X:   -4.519530
+Y:    2.609304
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -7.1233e+03: [1]  RCOSA
-  4.0440e+03: [2]  RSINA
+ -231.560713: [1]  RCOSA
+  133.689196: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10665,19 +10665,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.0956e+03   ERROR      --    
+RMS OPD  133.691041   ERROR      --    
 ====================
 Run  228
-X: -163.714699
-Y:   92.361083
+X:   -5.272837
+Y:    3.044198
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -8.3880e+03: [1]  RCOSA
-  4.7322e+03: [2]  RSINA
+ -270.156840: [1]  RCOSA
+  155.971244: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10712,19 +10712,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8154e+03   ERROR  8.9993e-05
+RMS OPD  155.974165   ERROR      --    
 ====================
 Run  229
-X: -189.146857
-Y:  105.924546
+X:   -6.026168
+Y:    3.479097
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -9.6910e+03: [1]  RCOSA
-  5.4271e+03: [2]  RSINA
+ -308.754201: [1]  RCOSA
+  178.253529: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10759,19 +10759,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.5536e+03   ERROR      --    
+RMS OPD  178.257882   ERROR      --    
 ====================
 Run  230
-X: -215.470393
-Y:  119.639842
+X:   -6.779527
+Y:    3.914001
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.1040e+04: [1]  RCOSA
-  6.1298e+03: [2]  RSINA
+ -347.352974: [1]  RCOSA
+  200.536085: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10806,19 +10806,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.3137e+03   ERROR    0.000280
+RMS OPD  200.542279   ERROR      --    
 ====================
 Run  231
-X: -242.847520
-Y:  133.528677
+X:   -7.532917
+Y:    4.348911
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.2442e+04: [1]  RCOSA
-  6.8414e+03: [2]  RSINA
+ -385.953333: [1]  RCOSA
+  222.818947: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10853,19 +10853,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.0996e+03   ERROR      --    
+RMS OPD  222.827440   ERROR      --    
 ====================
 Run  232
-X:  275.979402
-Y:  -67.949614
+X:    8.402033
+Y:   -2.251120
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.4140e+04: [1]  RCOSA
- -3.4814e+03: [2]  RSINA
+  430.483008: [1]  RCOSA
+ -115.337431: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10900,19 +10900,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.2811e+03   ERROR      --    
+RMS OPD  222.833097   ERROR  5.1939e-06
 ====================
 Run  233
-X:  243.916501
-Y:  -61.083010
+X:    7.561694
+Y:   -2.026005
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.2497e+04: [1]  RCOSA
- -3.1296e+03: [2]  RSINA
+  387.427733: [1]  RCOSA
+ -103.803554: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10947,19 +10947,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.4416e+03   ERROR    0.000145
+RMS OPD  200.546403   ERROR      --    
 ====================
 Run  234
-X:  213.403971
-Y:  -54.239180
+X:    6.721397
+Y:   -1.800892
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.0934e+04: [1]  RCOSA
- -2.7790e+03: [2]  RSINA
+  344.374660: [1]  RCOSA
+  -92.269719: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -10994,19 +10994,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.6408e+03   ERROR    0.000178
+RMS OPD  178.260778   ERROR  4.8733e-06
 ====================
 Run  235
-X:  184.186198
-Y:  -47.415512
+X:    5.881139
+Y:   -1.575779
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  9.4369e+03: [1]  RCOSA
- -2.4294e+03: [2]  RSINA
+  301.323545: [1]  RCOSA
+  -80.735922: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11041,19 +11041,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8723e+03   ERROR      --    
+RMS OPD  155.976105   ERROR  2.7358e-06
 ====================
 Run  236
-X:  156.041611
-Y:  -40.609419
+X:    5.040914
+Y:   -1.350666
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  7.9949e+03: [1]  RCOSA
- -2.0806e+03: [2]  RSINA
+  258.274143: [1]  RCOSA
+  -69.202157: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11088,19 +11088,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.1306e+03   ERROR  6.0790e-05
+RMS OPD  133.692263   ERROR      --    
 ====================
 Run  237
-X:  128.775290
-Y:  -33.818342
+X:    4.200718
+Y:   -1.125554
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  6.5979e+03: [1]  RCOSA
- -1.7327e+03: [2]  RSINA
+  215.226210: [1]  RCOSA
+  -57.668421: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11135,19 +11135,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.4108e+03   ERROR      --    
+RMS OPD  111.409135   ERROR      --    
 ====================
 Run  238
-X:  102.213072
-Y:  -27.039746
+X:    3.360546
+Y:   -0.900443
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  5.2369e+03: [1]  RCOSA
- -1.3854e+03: [2]  RSINA
+  172.179500: [1]  RCOSA
+  -46.134709: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11182,19 +11182,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.7085e+03   ERROR      --    
+RMS OPD   89.126602   ERROR      --    
 ====================
 Run  239
-X:   76.196746
-Y:  -20.271112
+X:    2.520393
+Y:   -0.675332
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  3.9040e+03: [1]  RCOSA
- -1.0386e+03: [2]  RSINA
+  129.133768: [1]  RCOSA
+  -34.601015: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11229,19 +11229,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0199e+03   ERROR  5.9217e-05
+RMS OPD   66.844546   ERROR  2.1221e-06
 ====================
 Run  240
-X:   50.580046
-Y:  -13.509936
+X:    1.680254
+Y:   -0.450221
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  2.5915e+03: [1]  RCOSA
- -692.189381: [2]  RSINA
+   86.088771: [1]  RCOSA
+  -23.067336: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11276,19 +11276,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3412e+03   ERROR  4.8913e-05
+RMS OPD   44.562853   ERROR      --    
 ====================
 Run  241
-X:   25.225223
-Y:   -6.753728
+X:    0.840125
+Y:   -0.225110
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
-  1.2924e+03: [1]  RCOSA
- -346.031123: [2]  RSINA
+   43.044263: [1]  RCOSA
+  -11.533665: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11323,7 +11323,7 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.974932   ERROR  1.8277e-05
+RMS OPD   22.281422   ERROR  5.1060e-07
 ====================
 Run  242
 X:    0.0
@@ -11373,16 +11373,16 @@ Z:    0.0
 RMS OPD    0.056957   ERROR  3.0928e-09
 ====================
 Run  243
-X:  -25.225223
-Y:    6.753728
+X:   -0.840125
+Y:    0.225110
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.2924e+03: [1]  RCOSA
-  346.031123: [2]  RSINA
+  -43.044263: [1]  RCOSA
+   11.533665: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11417,19 +11417,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  668.974932   ERROR  1.0930e-05
+RMS OPD   22.281422   ERROR  4.1714e-07
 ====================
 Run  244
-X:  -50.580046
-Y:   13.509936
+X:   -1.680254
+Y:    0.450221
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -2.5915e+03: [1]  RCOSA
-  692.189381: [2]  RSINA
+  -86.088771: [1]  RCOSA
+   23.067336: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11464,19 +11464,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  1.3412e+03   ERROR  3.2610e-05
+RMS OPD   44.562853   ERROR      --    
 ====================
 Run  245
-X:  -76.196746
-Y:   20.271112
+X:   -2.520393
+Y:    0.675332
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -3.9040e+03: [1]  RCOSA
-  1.0386e+03: [2]  RSINA
+ -129.133768: [1]  RCOSA
+   34.601015: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11511,19 +11511,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.0199e+03   ERROR  4.6330e-05
+RMS OPD   66.844546   ERROR      --    
 ====================
 Run  246
-X: -102.213072
-Y:   27.039746
+X:   -3.360546
+Y:    0.900443
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -5.2369e+03: [1]  RCOSA
-  1.3854e+03: [2]  RSINA
+ -172.179500: [1]  RCOSA
+   46.134709: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11558,19 +11558,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  2.7085e+03   ERROR  6.4293e-05
+RMS OPD   89.126602   ERROR      --    
 ====================
 Run  247
-X: -128.775290
-Y:   33.818342
+X:   -4.200718
+Y:    1.125554
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -6.5979e+03: [1]  RCOSA
-  1.7327e+03: [2]  RSINA
+ -215.226210: [1]  RCOSA
+   57.668421: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11605,19 +11605,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  3.4108e+03   ERROR      --    
+RMS OPD  111.409135   ERROR      --    
 ====================
 Run  248
-X: -156.041611
-Y:   40.609419
+X:   -5.040914
+Y:    1.350666
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -7.9949e+03: [1]  RCOSA
-  2.0806e+03: [2]  RSINA
+ -258.274143: [1]  RCOSA
+   69.202157: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11652,19 +11652,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.1306e+03   ERROR      --    
+RMS OPD  133.692263   ERROR      --    
 ====================
 Run  249
-X: -184.186198
-Y:   47.415512
+X:   -5.881139
+Y:    1.575779
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -9.4369e+03: [1]  RCOSA
-  2.4294e+03: [2]  RSINA
+ -301.323545: [1]  RCOSA
+   80.735922: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11699,19 +11699,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  4.8723e+03   ERROR  5.2771e-05
+RMS OPD  155.976105   ERROR      --    
 ====================
 Run  250
-X: -213.403971
-Y:   54.239180
+X:   -6.721397
+Y:    1.800892
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.0934e+04: [1]  RCOSA
-  2.7790e+03: [2]  RSINA
+ -344.374660: [1]  RCOSA
+   92.269719: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11746,19 +11746,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  5.6408e+03   ERROR      --    
+RMS OPD  178.260778   ERROR  3.0039e-06
 ====================
 Run  251
-X: -243.916501
-Y:   61.083010
+X:   -7.561694
+Y:    2.026005
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.2497e+04: [1]  RCOSA
-  3.1296e+03: [2]  RSINA
+ -387.427733: [1]  RCOSA
+  103.803554: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11793,19 +11793,19 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  6.4416e+03   ERROR    0.000177
+RMS OPD  200.546403   ERROR      --    
 ====================
 Run  252
-X: -275.979402
-Y:   67.949614
+X:   -8.402033
+Y:    2.251120
 Z:    0.0
 
 *ZERNIKE ANALYSIS 
  WAVELENGTH 1
  Positive angle A is a rotation from the +y axis toward the +x axis.
     0.063662: [0]  1
- -1.4140e+04: [1]  RCOSA
-  3.4814e+03: [2]  RSINA
+ -430.483008: [1]  RCOSA
+  115.337431: [2]  RSINA
     0.095514: [3]  2R^2 - 1
       --    : [4]  R^2COS2A
       --    : [5]  R^2SIN2A
@@ -11840,5 +11840,6 @@ Z:    0.0
       --    : [34] (126R^8 - 280R^6 + 210R^4 - 60R^2 + 5)RSINA
       --    : [35] 252R^10 - 630R^8 + 560R^6 - 210R^4 + 30R^2 - 1
       --    : [36] 924R^12 - 2772R^10 + 3150R^8 - 1680R^6 + 420R^4 - 42R^2 + 1
-RMS OPD  7.2811e+03   ERROR      --    
+RMS OPD  222.833097   ERROR      --    
 ====================
+ 

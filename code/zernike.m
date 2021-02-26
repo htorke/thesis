@@ -47,5 +47,5 @@ for np = 0:5
     end
   end
 end
-
+fclose(fd);
 end
