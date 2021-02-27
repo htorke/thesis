@@ -27,7 +27,7 @@ end
 
 filename = 'all_runs.txt';
 fd = fopen(filename,'r');
-maxrun = 252;
+maxrun = 101;
 
 n = 0;
 while(n < maxrun)
