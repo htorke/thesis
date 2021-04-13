@@ -1,33 +1,29 @@
-function [S] = strehl(field, power,x, y, aperture_width, x_angle, y_angle, lambda)
+function [S] = strehl(field, power, dl, aperture_width, shape)
   %Arguments
   %Field - After aperture
   %Total Power
   %Aperture Width - Ideal aperture diameter
   %Dl - Spatial resolution
   
-  if nargin < 8
-     x_angle = 0;
-     y_angle = 0;
-     lambda = 1;
+  if nargin < 6
+     shape = 'circ';
   end
-  dl = y(2)-y(1);
-  fx = sin(2*pi*x_angle/360)/lambda;
-  fy = sin(2*pi*y_angle/360)/lambda;
 
-  angle = exp(-sqrt(-1)*2*pi*(fx*x + fy*y));
   
   %Calculating unit cell Strehl
   if aperture_width == Inf
       mask = sum(sum(ones(size(field))));
   else
-      mask = (pi*aperture_width/2*aperture_width/2/dl/dl);
+      if strcmp(shape, 'circ')
+          mask = (pi*aperture_width/2*aperture_width/2/dl/dl);
+      elseif strcmp(shape, 'hex')
+        mask = (sqrt(3)/4 +sqrt(3))*aperture_width*aperture_width/3/dl/dl;
+      end
   end
   
   
   equivalent_intensity = power/mask;
   equivalent_field = sqrt(equivalent_intensity)*mask;
-
-%  imagesc(abs(fftshift(fft2(angle))));
   
-  S = (abs(sum(sum(field.*angle)))/equivalent_field)^2;
+  S = (abs(sum(sum(field)))/equivalent_field)^2;
 end

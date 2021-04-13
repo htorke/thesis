@@ -14,6 +14,12 @@ if fd ~= 0
         line = fgetl(fd);
     end
     
+    line = fgets(fd);
+    efl = str2double(line(5:size(line,2)));
+    
+    line = fgets(fd);
+    d = str2double(line(3:size(line,2)));
+    
     while line ~= -1
         line = fgets(fd);
         fwrite(fw,line);
@@ -40,7 +46,7 @@ while(n < maxrun)
   line = fgetl(fd);
   z = str2double(line(3:size(line,2)));
   
-  writefile = sprintf('./data/Run%d_x%f_y%f_z%f.txt',n,x,y,z);
+  writefile = sprintf('./data/Run%d_x%f_y%f_z%f_f%f_d%f.txt',n,x,y,z,efl,d);
 
   f2 = fopen(writefile,'w');
   while(~strcmp(line,'===================='))

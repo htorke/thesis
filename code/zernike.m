@@ -1,4 +1,4 @@
-function [abberation] = zernike(x,y,r,file)
+function [abberation] = zernike(x,y,r,file,remove)
 
 %Returns aberration screen
 %Inputs X Y R file
@@ -24,10 +24,10 @@ for np = 0:5
     
         a = fgetl(fd);
         term = strfind(a,':');
-        if(strfind(a(1:term-1),'--'))
+        if(contains(a(1:term-1),'--'))
           coeff(i) = 0;
         else
-          if(strfind(a(1:term-1),'e'))
+          if(contains(a(1:term-1),'e'))
             ex = strfind(a(1:term-1),'e');
             base = str2double(a(1:ex-1));
             order = str2double(a(ex+1:term-1));
@@ -38,11 +38,11 @@ for np = 0:5
         end
     
         zn = zernike_poly(x,y,n,mp*m,r);
-        abberation = abberation + zn*coeff(i);
+        %Skip N=1 to remove tilt components
+        if((n ~=1) || ~contains(remove,'tilt'))
+            abberation = abberation + zn*coeff(i);
+        end
 
-%        subplot(6,6,i);
-%        imagesc(zn);
-%        set(gca,'YDir','normal');
       end
     end
   end
