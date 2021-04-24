@@ -1,4 +1,4 @@
-function [field,power,x,y] = gaussian_lens(x,y,px,py,R,sigR,dl,dx,dy,dz,theta,rho,phi)
+function [field,power,x,y] = gaussian_lens(x,y,px,py,R,sigR,dl,dx,dy,dz,theta,rho,phi,illumination)
 %Inputs:
 %x - Coordinate array of X
 %y - Coordinate array of Y
@@ -14,7 +14,7 @@ function [field,power,x,y] = gaussian_lens(x,y,px,py,R,sigR,dl,dx,dy,dz,theta,rh
 %rho - Off axis angular magnitude
 %phi - Off axis angular rotation
 if nargin < 11
-   theta = 0; 
+   theta = 90; 
 end
 
 if nargin < 12
@@ -60,13 +60,21 @@ end
 if nargin < 4
     py = 0;
 end
-  
 
+if nargin < 14
+   illumination = 'gaus'; 
+end
+  
 [x_adj,y_adj] = ellipse_adjust(x,y,px,py,R,theta,rho,phi);
 r = sqrt((x_adj).^2 + (y_adj).^2);
 
-intensity = gauss(x_adj,y_adj,R,0,0,sigR);
+if contains(illumination,'gaus')
+    intensity = gauss(x_adj,y_adj,R,0,0,sigR)/cos(2*pi*rho/360);
+    power = sum(sum(intensity));
+else
+    intensity =round(abs(r) < R)/cos(2*pi*rho/360);
+    power = sum(sum(intensity));
+end
 aperture = round(abs(r) < R);
 
 field = sqrt(intensity).*aperture;
-power = sum(sum(intensity));

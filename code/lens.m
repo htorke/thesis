@@ -1,4 +1,4 @@
-function [aperture] = lens(x,y,px,py,d,aberration,theta,rho,phi)
+function [aperture] = lens(x,y,px,py,d,aberration,theta,rho,phi,rm)
   %X
   %Y
   %Diameter
@@ -19,6 +19,9 @@ function [aperture] = lens(x,y,px,py,d,aberration,theta,rho,phi)
      phi = 0; 
   end
   
+  if nargin < 10
+     rm = 'none'; 
+  end
   
 [x_adj,y_adj] = ellipse_adjust(x,y,px,py,d/2,theta,rho,phi);
 r = sqrt((x_adj).^2 + (y_adj).^2);
@@ -28,7 +31,7 @@ m = round(abs(r) < d/2);
       if aberration == -1
         opd = zeros(size(x));
       else
-        opd = zernike(x_adj,y_adj,d/2,aberration,'tilt');
+        opd = zernike(x_adj,y_adj,d/2,aberration,rm);
       end
   else
     opd = zeros(size(x));
