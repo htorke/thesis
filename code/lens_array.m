@@ -37,12 +37,16 @@ w = waitbar(n,'Evaluating array');
 
 %Get OSLO data
 [aberration,dx,dy,dz,efl,lens_diameter] = fetch_data(run_index);
+% dx
+% dy
+% dz
+% efl
 if aberration ~= -1
    rho = 360*sqrt(atan2(dy,efl).^2 + atan2(dx,efl).^2)/2/pi
    phi = 360*atan2(atan2(dy,efl),atan2(dx,efl))/2/pi
 end
-if ~contains(illumination,'uni')
-   aberration = -1; 
+if contains(illumination,'uni')
+   aberration = -1;
 end
 
 %Derived Parameters
@@ -70,7 +74,7 @@ S_Ideal = fill_factor * S_gauss;
 for i=(array_diameter_n-1)/2:-1:-(array_diameter_n-1)/2
    for j = -(array_diameter_n-abs(i)-1)/2:(array_diameter_n-abs(i)-1)/2
 
-       ap = lens(x,y,lens_diameter*j,2*(lens_diameter/2)*sin(pi/3)*i,lens_diameter,aberration,theta,rho,phi,'tilt');
+       ap = lens(x,y,lens_diameter*j,2*(lens_diameter/2)*sin(pi/3)*i,dx,dy,efl+dz,lens_diameter,aberration,theta,rho,phi,'tilt');
        aperture = aperture.*round(abs(ap) == 0) + ap;
        
        [sub_f,sub_p] = gaussian_lens(x,y,lens_diameter*j,2*(lens_diameter/2)*sin(pi/3)*i,lens_diameter/2,0.447,dl,dx,dy,dz,theta,rho,phi,illumination);
