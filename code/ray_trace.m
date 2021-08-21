@@ -1,17 +1,27 @@
-function [ret_opd] = ray_trace(x,y,px,py,pz,D,remove)
-%Lens Description: AC254-500-C
+%function [ret_opd] = ray_trace(x,y,px,py,pz,D,remove)
 
-if nargin < 7
-   remove = 'none'; 
+nargin = 0;
+
+if nargin < 5
+    py = 0e-3;
+    px = (-497.732639e-3);;
+    pz = (-497.732639e-3);
 end
 
-lambda = 1.06e-4;
-%py = -497e-3;
-%px = 0e-3;
-%pz = -497e-3;
-
+if nargin < 6
 %Lens diameter
-%D = 25.4e-3;
+    D = 25.4e-3;
+end
+
+if nargin < 7
+   remove = 'tilt'; 
+end
+
+if nargin < 2
+    [x,y] = meshgrid(D*(-0.75:0.001:0.75));
+end
+
+%Lens Description: AC254-500-C
 
 %Front of lens 1
 R1 = 87.9e-3;
@@ -26,12 +36,10 @@ R3 = 194.5e-3;
 C3 = 1;
 P3 = 5.5e-3;
 
-%Image EQ
-efl = 497.732639e-3;
-targ = 1/((1/pz)+(1/efl));
-
 %Width of whole lens
-width = 5.5e-3 + R3*(1-cos(asin(D/2/R3)));
+width = P3 + R3*(1-cos(asin(D/2/R3)));
+
+lambda = 1.06e-4;
 
 %Refractive Index of Air
 N1 = 1;
@@ -73,7 +81,7 @@ sz = (z - pz)./sr;
 
 %r x s = r*s*sin(theta)
 cx = (ry.*sz-sy.*rz);
-cy = (rx.*sz-sx.*rz);
+cy = (rx.*sz-sx.*rz)*-1;
 cz = (rx.*sy-sx.*ry);
 
 %Snells law for interface 1
@@ -81,19 +89,20 @@ cz = (rx.*sy-sx.*ry);
 sinangle1 = sqrt(cx.^2 + cy.^2 + cz.^2); 
 sinangle2 = mask.*sinangle1*N1/N2;
 
-%Tangent vector -> r x (r x s)
-tx = (ry.*cz-cy.*rz);
-ty = (rx.*cz-cx.*rz);
-tz = (rx.*cy-cx.*ry);
+%Tangent vector -> (r x s) x r
+tx = (cy.*rz-ry.*cz);
+ty = (cx.*rz-rx.*cz)*-1;
+tz = (cx.*ry-rx.*cy);
 tr = sqrt(tx.^2 + ty.^2 + tz.^2);
 %Tangent length, length of perpindicular vector
-tlength = C1*R1*tan(asin(sinangle2));
+tlength = R1*tan(asin(sinangle2));
 
 %Lens1 vector - Propagation vector through lens 1 medium
-lx = C1*(tlength.*tx./tr - x);
-ly = C1*(tlength.*ty./tr - y);
-lz = C1*(P1+C1*R1+tlength.*tz./tr - z);
+lx = (tlength.*tx./tr - x); 
+ly = (tlength.*ty./tr - y);
+lz = (P1+C1*R1+tlength.*tz./tr - z);
 lr = sqrt(lx.^2 + ly.^2 + lz.^2);
+
 
 %Lens1 to Lens2 is intersection of Lens1 vector and Lens2 surface
 %Assuming lens is centered in x-y, offset in Z
@@ -132,6 +141,8 @@ bx = x + path2.*lx./lr;
 by = y + path2.*ly./lr;
 bz = z + path2.*lz./lr;
 
+
+
 %Radius segment vector
 rx = (0-bx)/R2;
 ry = (0-by)/R2;
@@ -144,7 +155,7 @@ sz = (bz - bpz)./sr;
 
 %r x s = r*s*sin(theta)
 cx = (ry.*sz-sy.*rz);
-cy = (rx.*sz-sx.*rz);
+cy = (rx.*sz-sx.*rz)*-1;
 cz = (rx.*sy-sx.*ry);
 
 %Snells law for interface 2
@@ -152,17 +163,17 @@ cz = (rx.*sy-sx.*ry);
 sinangle1 = sqrt(cx.^2 + cy.^2 + cz.^2); 
 sinangle2 = mask.*sinangle1*N2/N3;
 
-%Tangent vector -> r x (r x s)
-tx = (ry.*cz-cy.*rz);
-ty = (rx.*cz-cx.*rz);
-tz = (rx.*cy-cx.*ry);
+%Tangent vector -> (r x s) x r
+tx = (cy.*rz-ry.*cz);
+ty = (cx.*rz-rx.*cz)*-1;
+tz = (cx.*ry-rx.*cy);
 tr = sqrt(tx.^2 + ty.^2 + tz.^2);
-tlength = C2*R2*tan(asin(sinangle2));
+tlength = R2*tan(asin(sinangle2));
 
 %Lens2 vector - Propagation vector through lens 2 medium
-lx = C2*(tlength.*tx./tr - bx);
-ly = C2*(tlength.*ty./tr - by);
-lz = C2*(P2+C2*R2+tlength.*tz./tr - bz);
+lx = (tlength.*tx./tr - bx);
+ly = (tlength.*ty./tr - by);
+lz = (P2+C2*R2+tlength.*tz./tr - bz);
 lr = sqrt(lx.^2 + ly.^2 + lz.^2);
 
 %AL^2 + BL + C = 0
@@ -185,7 +196,6 @@ path3 = (-b - Ct*sqrt(b.^2 - 4.*a.*c))./a/2;
  by = bpy + path3.*ly./lr;
  bz = bpz + path3.*lz./lr;
 
-
  
 %Ray vector
 sr = sqrt((bx - bpx).^2 + (by - bpy).^2 + (bz - bpz).^2);
@@ -200,7 +210,7 @@ rz = ((C3*P3+R3)-bz)/R3;
 
 %r x s = r*s*sin(theta)
 cx = (ry.*sz-sy.*rz);
-cy = (rx.*sz-sx.*rz);
+cy = (rx.*sz-sx.*rz)*-1;
 cz = (rx.*sy-sx.*ry);
 
 %Snells law for interface 2
@@ -208,35 +218,35 @@ cz = (rx.*sy-sx.*ry);
 sinangle1 = sqrt(cx.^2 + cy.^2 + cz.^2); 
 sinangle2 = mask.*sinangle1*N3/N1;
 
-%Tangent vector -> r x (r x s)
-tx = (ry.*cz-cy.*rz);
-ty = (rx.*cz-cx.*rz);
-tz = (rx.*cy-cx.*ry);
+%Tangent vector -> (r x s) x r
+tx = (cy.*rz-ry.*cz);
+ty = (cx.*rz-rx.*cz)*-1;
+tz = (cx.*ry-rx.*cy);
 tr = sqrt(tx.^2 + ty.^2 + tz.^2);
-tlength = C3*R3*tan(asin(sinangle2));
+tlength = R3*tan(asin(sinangle2));
 
 %Lens3 vector
-lx = C3*(tx.*tlength./tr - bx);
-ly = C3*(ty.*tlength./tr - by);
-lz = C3*(P3+C3*R3+tz.*tlength./tr - bz);
+lx = (tx.*tlength./tr - bx);
+ly = (ty.*tlength./tr - by);
+lz = (P3+C3*R3+tz.*tlength./tr - bz);
 lr = sqrt(lx.^2 + ly.^2 + lz.^2);
 
 path4 = (width - bz)./lz;
 
-% %Previous Boundary point
-% bpx = bx;
-% bpy = by;
-% bpz = bz;
-% 
-% %Boundary point of Lens2 Rear
-% bx = bpx + path4.*lx./lr;
-% by = bpy + path4.*ly./lr;
-% bz = bpz + path4.*lz./lr;
-% 
-%
-%r = sqrt(bx.^2 + by.^2);
-%dr = sqrt((lx./lr).^2+(ly./lr).^2);
-%intersect = mask.*(r./dr);
+%Previous Boundary point
+bpx = bx;
+bpy = by;
+bpz = bz;
+
+%Boundary point of Lens2 Rear
+bx = bpx + path4.*lx./lr;
+by = bpy + path4.*ly./lr;
+bz = bpz + path4.*lz./lr;
+
+
+r = sqrt(bx.^2 + by.^2);
+dr = sqrt((lx./lr).^2+(ly./lr).^2);
+intersect = mask.*(r./dr);
 
 opd = mask.*(N1*path1 + N2*path2 + N2*path3 + N1*path4)/lambda;
 
@@ -247,7 +257,6 @@ if contains(remove,'tilt')
 else
     ret_opd = opd;
 end
-
 %focus = targ*intersect(752,752)/intersect(752,752)
 %
-%imagesc(mask.*(opd-opd(752,752)))
+imagesc(mask.*(ret_opd))

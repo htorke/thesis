@@ -3,11 +3,11 @@ function parse_runs(maxrun)
 log_location = 'C:\Users\Public\Documents\OSLO 64bit EDU\private\oslog.txt';
 
 fd = fopen(log_location,'r');
-fw = fopen('./data/all_runs.txt','w');
+fw = fopen('./d5_data/all_runs.txt','w');
 
 if fd ~= 0 
     
-    delete('./data/Run*.txt');
+    delete('./d5_data/Run*.txt');
 
     line = 0;
     while(~strcmp(line,'Beginning sweep'))
@@ -31,7 +31,7 @@ if fd ~= 0
     delete(log_location);
 end
 
-filename = './data/all_runs.txt';
+filename = './d5_data/all_runs.txt';
 fd = fopen(filename,'r');
 
 n = 0;
@@ -46,7 +46,7 @@ while(n < maxrun)
   line = fgetl(fd);
   z = str2double(line(3:size(line,2)));
   
-  writefile = sprintf('./data/Run%d_x%f_y%f_z%f_f%f_d%f.txt',n,x,y,z,efl,d);
+  writefile = sprintf('./d5_data/Run%d_x%f_y%f_z%f_f%f_d%f.txt',n,x,y,z,efl,d);
 
   f2 = fopen(writefile,'w');
   while(~strcmp(line,'===================='))

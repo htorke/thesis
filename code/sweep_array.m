@@ -16,6 +16,6 @@ for i= 1:252
    waitbar(i/252,sweep_bar,'Running array sweep');
 end
 close(sweep_bar);
-sname = sprintf('./results/N%d_T%d_AC254-500.mat',num,angle);
+sname = sprintf('./results/N%d_T%d_AC254-5000.mat',num,angle);
 save(sname,'strl','r','theta');
 end

@@ -1,4 +1,4 @@
-function [S, S_Ideal] = lens_array_oslo(run_index, n, theta, rho, phi, shape)
+function [S, S_Ideal, field, aperture, p, dl, lens_diameter] = lens_array_oslo(run_index, n, theta, rho, phi, shape)
 
 if nargin < 1
    run_index = 0; 
@@ -94,7 +94,6 @@ imagesc(x(1,:),y(:,1),real(aperture.*field));
 %imagesc(imag(aperture))
 view(0,270);
 title('Illumination Array')
-
 if strcmp(shape,'circ')
 array_diameter = equivalent_circle;
 S = strehl(field.*aperture,p*n,dl,array_diameter,'circ');
@@ -105,4 +104,5 @@ S = strehl(field.*aperture,p*n,dl,lens_diameter*(1+sqrt(3)*(array_diameter_n+1)/
 elseif strcmp(shape,'tile')
 %Pass 
 S = strehl(field.*aperture,p,dl,lens_diameter,'tile',n);
+
 end
