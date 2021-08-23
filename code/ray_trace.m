@@ -250,13 +250,13 @@ intersect = mask.*(r./dr);
 
 opd = mask.*(N1*path1 + N2*path2 + N2*path3 + N1*path4)/lambda;
 
-if contains(remove,'tilt')
-    tiltx = x.*mask*sum(sum(opd.*mask.*x));
-    tilty = y.*mask*sum(sum(opd.*mask.*y));
-   ret_opd = opd - tiltx - tilty;
-else
+%if contains(remove,'tilt')
+%    tiltx = x.*mask*sum(sum(opd.*mask.*x));
+%    tilty = y.*mask*sum(sum(opd.*mask.*y));
+%   ret_opd = opd - tiltx - tilty;
+%else
     ret_opd = opd;
-end
+%end
 %focus = targ*intersect(752,752)/intersect(752,752)
 %
-imagesc(mask.*(ret_opd))
+imagesc(abs(mask.*(ret_opd)))
