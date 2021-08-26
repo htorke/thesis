@@ -4,9 +4,9 @@ clear;
 %Refractive Index of Air
 N1 = 1;
 %N-BAF10
-N2 = 1.65404;
+N2 = 1.64714;
 %NSF-6
-N3 = 1.77341;
+N3 = 1.76307;
 
 %Lens Radii
 R1 = 21.1;
@@ -182,10 +182,10 @@ opd(k+1) = path1*N1 + path2*N2 + path3*N3 + path4*N1;
 dist(k+1) = sqrt((0-surf4x)^2 + (targz - surf4z)^2);
 end
 
-xlim([-65 65])
+xlim([-65 75])
 ylim([-12.7 12.7])
 hold off;
 
 error = (opd-opd(1) - dist + dist(1));
-plot(error)
+%plot(error)
 
