@@ -1,53 +1,47 @@
-%clear;
-%Lens Description: AC254-500-C
-lambda = 1.06e-4;
-px = -497e-3;
+clear;
+%Lens Description: AC254-30-C
+lambda = 1.33e-6;
+px = 0e-3;
 py = 0e-3;
-pz = -497e-3;
+pz = -22.2e-3;
 
 %Lens diameter
 D = 25.4e-3;
 
 %Front of lens 1
-R1 = 87.9e-3;
+R1 = 71.1e-3;
 C1 = 1;
 P1 = 0e-3;
 %Back of lens 1, front of lens 2
-R2 = 115.5e-3;
-C2 = -1;
-P2 = 3.5e-3;
+R2 = 15.2e-3;
+C2 = 1;
+P2 = 1.8e-3;
 %Back of lens 2
-R3 = 194.5e-3;
-C3 = 1;
-P3 = 5.5e-3;
+R3 = 21.1e-3;
+C3 = -1;
+P3 = 14.8e-3;
 
 %Image EQ
-efl = 497.732639e-3;
-targ = 1/((1/pz)+(1/efl));
+efl = 30.4e-3;
 
 %Width of whole lens
-width = 5.5e-3 + R3*(1-cos(asin(D/2/R3)));
+width = 14.8e-3 - R3*(1-cos(asin(D/2/R3)));
 
 %Refractive Index of Air
 N1 = 1;
 %NSF-2
-N2 = 1.72717;
+N2 = 1.76307;
 %NSF-6
-N3 = 1.77341;
+N3 = 1.64714;
 
 %Lens 1 width
-W1 = 3.5e-3;
+W1 = 1.8e-3;
 %Lens 2 width
-W2 = 2e-3;
+W2 = 13.0e-3;
 
-T1 = R1 - R1*cos(asin((25.4e-3)/2/R1));
-T3 = R2 - R2*cos(asin((25.4e-3)/2/R2));
-T2 = W1-T1-T3;
-T4 = W2;
-T5 = R3 - R3*cos(asin((25.4e-3)/2/R3));
 
 %Coordinates in mm
-[x,y] = meshgrid(D*(-0.75:0.001:0.75));
+[x,y] = meshgrid(-0.5*D:0.0001:0.5*D);
 
 r = sqrt(x.^2 + y.^2);
 aperture = round(r <= D/2);
@@ -117,7 +111,7 @@ a = (lx./lr).^2 + (ly./lr).^2 + (lz./lr).^2;
 b = 2*(x.*lx./lr + y.*ly./lr + z.*lz./lr - (Ct*Rt+Pt)*lz./lr);
 c = x.^2 + y.^2 + z.^2 + 2*(Ct*Rt*Pt -z.*Ct*Rt -z.*Pt) + Pt.^2;
 
-path2 = (-b - Ct*sqrt(b.^2 - 4.*a.*c))./a/2;
+path2 = real((-b - Ct*sqrt(b.^2 - 4.*a.*c))./a/2);
  
 %Previous Boundary point
  bpx = x;
@@ -170,7 +164,7 @@ a = (lx./lr).^2 + (ly./lr).^2 + (lz./lr).^2;
 b = 2*(bx.*lx./lr + by.*ly./lr + bz.*lz./lr - (Ct*Rt+Pt)*lz./lr);
 c = bx.^2 + by.^2 + bz.^2 + 2*(Ct*Rt*Pt -bz.*Ct*Rt -bz.*Pt) + Pt.^2;
 
-path3 = (-b - Ct*sqrt(b.^2 - 4.*a.*c))./a/2;
+path3 = real((-b - Ct*sqrt(b.^2 - 4.*a.*c))./a/2);
 
  %Previous Boundary point
  bpx = bx;
@@ -193,7 +187,7 @@ sz = (bz - bpz)./sr;
 %Radial vector
 rx = (0-bx)/R3;
 ry = (0-by)/R3;
-rz = ((C3*P3+R3)-bz)/R3;
+rz = ((C3*R3+P3)-bz)/R3;
 
 %r x s = r*s*sin(theta)
 cx = (ry.*sz-sy.*rz);
@@ -220,23 +214,23 @@ lr = sqrt(lx.^2 + ly.^2 + lz.^2);
 
 path4 = (width - bz)./lz;
 
- %Previous Boundary point
- bpx = bx;
- bpy = by;
- bpz = bz;
- 
- %Boundary point of Lens2 Rear
- bx = bpx + path4.*lx./lr;
- by = bpy + path4.*ly./lr;
- bz = bpz + path4.*lz./lr;
- 
-
-r = sqrt(bx.^2 + by.^2);
-dr = sqrt((lx./lr).^2+(ly./lr).^2);
-intersect = mask.*(r./dr);
-
-opd = mask.*(N1*path1 + N2*path2 + N2*path3 + N1*path4)/lambda;
-
-%focus = targ*intersect(752,752)/intersect(752,752)
-
-imagesc(mask.*(opd-opd(752,752)))
+%  %Previous Boundary point
+%  bpx = bx;
+%  bpy = by;
+%  bpz = bz;
+%  
+%  %Boundary point of Lens2 Rear
+%  bx = bpx + path4.*lx./lr;
+%  by = bpy + path4.*ly./lr;
+%  bz = bpz + path4.*lz./lr;
+%  
+% 
+% r = sqrt(bx.^2 + by.^2);
+% dr = sqrt((lx./lr).^2+(ly./lr).^2);
+% intersect = mask.*(r./dr);
+% 
+opd = mask.*(N1*path1 + N2*path2 + N3*path3 )/lambda;
+% 
+% %focus = targ*intersect(752,752)/intersect(752,752)
+% 
+ imagesc(mask.*opd)

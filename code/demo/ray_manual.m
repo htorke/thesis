@@ -3,19 +3,19 @@ clear;
 
 %Refractive Index of Air
 N1 = 1;
-%N-BAF10
-N2 = 1.64714;
 %NSF-6
-N3 = 1.76307;
+N2 = 1.76307;
+%N-BAF10
+N3 = 1.64714;
 
 %Lens Radii
-R1 = 21.1;
+R1 = 71.1;
 R2 = 15.2;
-R3 = 71.1;
+R3 = 21.1;
 
 %Lens Positions
 P1 = 0;
-P2 = 13.0;
+P2 = 1.8;
 P3 = 14.8;
 P4 = 14.8;
 
@@ -24,16 +24,16 @@ focal_length = 30.4;
 theta = -pi/2:pi/500:pi/2;
 plot(R1*cos(pi +theta) +R1 + P1, R1*sin(pi + theta))
 hold on;
-plot(R2*cos(theta) -R2 + P2, R2*sin(theta))
+plot(R2*cos(pi +theta) +R2 + P2, R2*sin(theta))
 plot(R3*cos(theta) -R3 + P3, R3*sin(theta))
 
 %Starting point
 sourcex = 0;
-sourcez = -60.8;
+sourcez = -22.2;
 
 for k = 0:10
 %First lens boundary
-surf1x = k*2.53/2;
+surf1x = k;
 %x^2 + (z-R1)^2 = R1^2
 %z^2 +R1^2 -2z*R1 + x^2 = R1^2
 %z^2 -2*r1*z + x^2 = 0
@@ -45,7 +45,7 @@ ray1 = [ray1x/sqrt(ray1x^2 + ray1z^2), ray1z/sqrt(ray1x^2 + ray1z^2)];
 
 %Calculate radius of lens to get angle for snell calculation
 rad1x = surf1x;
-rad1z = -R1 + surf1z;
+rad1z = surf1z - R1;
 tan1x = -rad1z;
 tan1z = rad1x;
 
@@ -88,17 +88,17 @@ ray2 = [ray2x/sqrt(ray2x^2 + ray2z^2), ray2z/sqrt(ray2x^2 + ray2z^2)];
 
 %Find z intercept of lens2
 A = 1 + (ray2x/ray2z)^2;
-B = (2*(R2-P2)) + 2*surf1x*ray2x/ray2z -2*surf1z*(ray2x/ray2z)^2;
-C = P2^2 - 2*R2*P2 + surf1x^2 -2*surf1x*surf1z*ray2x/ray2z + surf1z*surf1z*(ray2x/ray2z)^2;
+B = -2*(R2+P2) + 2*surf1x*ray2x/ray2z -2*surf1z*(ray2x/ray2z)^2;
+C = P2^2 + 2*R2*P2 + surf1x^2 -2*surf1x*surf1z*ray2x/ray2z + surf1z*surf1z*(ray2x/ray2z)^2;
 
-surf2z = (-B + sqrt(B^2 - 4*A*C))/2/A;
-%x^2 + (z - P2 + R2)^2 = R2^2
-%x^2 = R2^2 - z^2 +2*z*(P2-R2) -(P2-R2)^2 
-surf2x = sqrt(R2^2 - surf2z^2 - (P2-R2)^2 + 2*surf2z*(P2-R2));
+surf2z = (-B - sqrt(B^2 - 4*A*C))/2/A;
+%x^2 + (z - P2 - R2)^2 = R2^2
+%x^2 = R2^2 - z^2 +2*z*(P2+R2) -(P2+R2)^2 
+surf2x = sqrt(R2^2 - surf2z^2 - (P2+R2)^2 + 2*surf2z*(P2+R2));
 
 %Calculate radius of lens to get angle for snell calculation
 rad2x = surf2x;
-rad2z = surf2z - (-R2 + P2);
+rad2z = surf2z - (R2 + P2);
 tan2x = -rad2z;
 tan2z = rad2x;
 
@@ -115,8 +115,8 @@ angle2f = 360*asin(sqrt(1 - dot2^2) * N2/N3)/2/pi;
 tan2len = sqrt(rad2x^2 + rad2z^2) * tan(2*pi*angle2f/360);
 
 %Add tangent to radius source point
-targ3x = 0  - tan2len*tan2x/sqrt(tan2x^2 + tan2z^2);
-targ3z = -R2+P2 - tan2len*tan2z/sqrt(tan2x^2 + tan2z^2);
+targ3x = 0  + tan2len*tan2x/sqrt(tan2x^2 + tan2z^2);
+targ3z = R2+P2 + tan2len*tan2z/sqrt(tan2x^2 + tan2z^2);
 
 %Ray3 is surface of lens2 to target
 ray3x = targ3x - surf2x;
@@ -173,11 +173,12 @@ plot(linspace(surf3z, surf4z,50),linspace(surf3x, surf4x,50))
 
 plot(linspace(surf4z, targz,50),linspace(surf4x, targx,50))
 
+
 path1 = sqrt((surf1x-sourcex)^2+(surf1z-sourcez)^2);
 path2 = sqrt((surf2x-surf1x)^2+(surf2z-surf1z)^2);
 path3 = sqrt((surf3x-surf2x)^2+(surf3z-surf2z)^2);
 path4 = sqrt((surf4x-surf3x)^2+(surf4z-surf3z)^2);
-opd(k+1) = path1*N1 + path2*N2 + path3*N3 + path4*N1;
+opd(k+1) = N1*path1 + N2*path2 + N3*path3 + N1*path4;
 
 dist(k+1) = sqrt((0-surf4x)^2 + (targz - surf4z)^2);
 end

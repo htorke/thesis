@@ -68,18 +68,26 @@ S_gauss = strehl(e,p,dl,lens_diameter,'circ');
 S_Ideal = fill_factor * S_gauss;
 
 
+%%%%%
+ap = lens_oslo(x,y,lens_diameter*j,2*(lens_diameter/2)*sin(pi/3)*i,lens_diameter,aberration,theta,rho,phi,'tilt');
+aperture = aperture.*round(abs(ap) == 0) + ap;
+        
+[sub_f,sub_p] = gaussian_lens(x,y,lens_diameter*j,2*(lens_diameter/2)*sin(pi/3)*i,lens_diameter/2,0.447,dl,dx,dy,dz,theta,rho,phi,illumination);
+field = field.*round(abs(ap) == 0) + sub_f;
+power = power + sub_p;
 
+%%%%%
 
 %Generate Hex
 for i=(array_diameter_n-1)/2:-1:-(array_diameter_n-1)/2
    for j = -(array_diameter_n-abs(i)-1)/2:(array_diameter_n-abs(i)-1)/2
 
-       ap = lens_oslo(x,y,lens_diameter*j,2*(lens_diameter/2)*sin(pi/3)*i,lens_diameter,aberration,theta,rho,phi,'tilt');
-       aperture = aperture.*round(abs(ap) == 0) + ap;
-       
-       [sub_f,sub_p] = gaussian_lens(x,y,lens_diameter*j,2*(lens_diameter/2)*sin(pi/3)*i,lens_diameter/2,0.447,dl,dx,dy,dz,theta,rho,phi,illumination);
-       field = field.*round(abs(ap) == 0) + sub_f;
-       power = power + sub_p;
+%        ap = lens_oslo(x,y,lens_diameter*j,2*(lens_diameter/2)*sin(pi/3)*i,lens_diameter,aberration,theta,rho,phi,'tilt');
+%        aperture = aperture.*round(abs(ap) == 0) + ap;
+%        
+%        [sub_f,sub_p] = gaussian_lens(x,y,lens_diameter*j,2*(lens_diameter/2)*sin(pi/3)*i,lens_diameter/2,0.447,dl,dx,dy,dz,theta,rho,phi,illumination);
+%        field = field.*round(abs(ap) == 0) + sub_f;
+%        power = power + sub_p;
        
        n = n + 1;
        waitbar(n/array_n,w,'Evaluating array');
