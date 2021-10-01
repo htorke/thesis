@@ -1,0 +1,29 @@
+#Lens AC-254-300C
+#Tuned to 1.05 um laser
+
+#Air
+N 1.0;
+
+#Lens 1 Front boundary
+R 0.0711;
+C 1;
+P 0.0;
+
+#Refractive Index of Lens 1
+N 1.77341;
+
+#Lens 1 Back boundary/Lens 2 Front boundary
+R 0.0152;
+C 1;
+P 0.0018;
+
+#Refractive Index of Lens 2
+N 1.65404;
+
+#Lens 2 Back Boundary
+R 0.0211;
+C -1;
+P 0.0148;
+
+#Refractive Index of Air
+N 1.0;

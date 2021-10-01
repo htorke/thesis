@@ -1,4 +1,4 @@
-function [abberation] = zernike(x,y,r,file,remove)
+function [abberation] = zernike_file(x,y,r,file,remove)
 
 %Returns aberration screen
 %Inputs X Y R file

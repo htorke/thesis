@@ -18,7 +18,7 @@ C2 = 1;
 P2 = 1.8e-3;
 %Back of lens 2
 R3 = 21.1e-3;
-C3 = -1;
+C3 = 1;
 P3 = 14.8e-3;
 
 %Image EQ
@@ -30,9 +30,9 @@ width = 14.8e-3 - R3*(1-cos(asin(D/2/R3)));
 %Refractive Index of Air
 N1 = 1;
 %NSF-2
-N2 = 1.76307;
+N2 = 1.77341;
 %NSF-6
-N3 = 1.64714;
+N3 = 1.65404;
 
 %Lens 1 width
 W1 = 1.8e-3;
@@ -56,6 +56,7 @@ path1 = d1;
 rx = (0-x)/R1;
 ry = (0-y)/R1;
 rz = (C1*R1-z)/R1;
+
 %Source segment vector
 sr = sqrt((x-px).^2 + (y-py).^2 + (z-pz).^2);
 sx = (x - px)./sr;
@@ -70,7 +71,7 @@ cz = (rx.*sy-sx.*ry);
 %Snells law for interface 1
 %Mask the angles here because sometimes behavior is odd outside of aperture
 sinangle1 = sqrt(cx.^2 + cy.^2 + cz.^2); 
-sinangle2 = mask.*sinangle1*N1/N2;
+sinangle2 = sinangle1*N1/N2;
 
 %Tangent vector -> r x (r x s)
 tx = (ry.*cz-cy.*rz);
@@ -109,9 +110,9 @@ Rt = R2;
 Pt = P2;
 a = (lx./lr).^2 + (ly./lr).^2 + (lz./lr).^2;
 b = 2*(x.*lx./lr + y.*ly./lr + z.*lz./lr - (Ct*Rt+Pt)*lz./lr);
-c = x.^2 + y.^2 + z.^2 + 2*(Ct*Rt*Pt -z.*Ct*Rt -z.*Pt) + Pt.^2;
+c = x.^2 + y.^2 + z.^2 + Pt.^2 + 2*(Ct*Rt*Pt -z.*Ct*Rt -z.*Pt);
 
-path2 = real((-b - Ct*sqrt(b.^2 - 4.*a.*c))./a/2);
+path2 = ((-b - Ct*sqrt(b.^2 - 4.*a.*c))./a/2);
  
 %Previous Boundary point
  bpx = x;
@@ -141,7 +142,7 @@ cz = (rx.*sy-sx.*ry);
 %Snells law for interface 2
 %Mask the angles here because sometimes behavior is odd outside of aperture
 sinangle1 = sqrt(cx.^2 + cy.^2 + cz.^2); 
-sinangle2 = mask.*sinangle1*N2/N3;
+sinangle2 = sinangle1*N2/N3;
 
 %Tangent vector -> r x (r x s)
 tx = (ry.*cz-cy.*rz);
@@ -164,17 +165,17 @@ a = (lx./lr).^2 + (ly./lr).^2 + (lz./lr).^2;
 b = 2*(bx.*lx./lr + by.*ly./lr + bz.*lz./lr - (Ct*Rt+Pt)*lz./lr);
 c = bx.^2 + by.^2 + bz.^2 + 2*(Ct*Rt*Pt -bz.*Ct*Rt -bz.*Pt) + Pt.^2;
 
-path3 = real((-b - Ct*sqrt(b.^2 - 4.*a.*c))./a/2);
+path3 = mask.*((-b - Ct*sqrt(b.^2 - 4.*a.*c))./a/2);
 
- %Previous Boundary point
- bpx = bx;
- bpy = by;
- bpz = bz;
+% Previous Boundary point
+bpx = bx;
+bpy = by;
+bpz = bz;
  
- %Boundary point of Lens2 Rear
- bx = bpx + path3.*lx./lr;
- by = bpy + path3.*ly./lr;
- bz = bpz + path3.*lz./lr;
+% Boundary point of Lens2 Rear
+bx = bpx + path3.*lx./lr;
+by = bpy + path3.*ly./lr;
+bz = bpz + path3.*lz./lr;
 
 
  
@@ -197,7 +198,7 @@ cz = (rx.*sy-sx.*ry);
 %Snells law for interface 2
 %Mask the angles here because sometimes behavior is odd outside of aperture
 sinangle1 = sqrt(cx.^2 + cy.^2 + cz.^2); 
-sinangle2 = mask.*sinangle1*N3/N1;
+sinangle2 = sinangle1*N3/N1;
 
 %Tangent vector -> r x (r x s)
 tx = (ry.*cz-cy.*rz);
@@ -214,23 +215,6 @@ lr = sqrt(lx.^2 + ly.^2 + lz.^2);
 
 path4 = (width - bz)./lz;
 
-%  %Previous Boundary point
-%  bpx = bx;
-%  bpy = by;
-%  bpz = bz;
-%  
-%  %Boundary point of Lens2 Rear
-%  bx = bpx + path4.*lx./lr;
-%  by = bpy + path4.*ly./lr;
-%  bz = bpz + path4.*lz./lr;
-%  
-% 
-% r = sqrt(bx.^2 + by.^2);
-% dr = sqrt((lx./lr).^2+(ly./lr).^2);
-% intersect = mask.*(r./dr);
-% 
 opd = mask.*(N1*path1 + N2*path2 + N3*path3 )/lambda;
-% 
-% %focus = targ*intersect(752,752)/intersect(752,752)
-% 
- imagesc(mask.*opd)
+
+ imagesc(imag(mask.*opd))

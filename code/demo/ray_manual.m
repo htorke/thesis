@@ -4,9 +4,9 @@ clear;
 %Refractive Index of Air
 N1 = 1;
 %NSF-6
-N2 = 1.76307;
+N2 = 1.77341;
 %N-BAF10
-N3 = 1.64714;
+N3 = 1.65404;
 
 %Lens Radii
 R1 = 71.1;
@@ -19,7 +19,7 @@ P2 = 1.8;
 P3 = 14.8;
 P4 = 14.8;
 
-focal_length = 30.4;
+focal_length = 22.2;
 
 theta = -pi/2:pi/500:pi/2;
 plot(R1*cos(pi +theta) +R1 + P1, R1*sin(pi + theta))
@@ -90,7 +90,9 @@ ray2 = [ray2x/sqrt(ray2x^2 + ray2z^2), ray2z/sqrt(ray2x^2 + ray2z^2)];
 A = 1 + (ray2x/ray2z)^2;
 B = -2*(R2+P2) + 2*surf1x*ray2x/ray2z -2*surf1z*(ray2x/ray2z)^2;
 C = P2^2 + 2*R2*P2 + surf1x^2 -2*surf1x*surf1z*ray2x/ray2z + surf1z*surf1z*(ray2x/ray2z)^2;
-
+a2 = A;
+b2 = B;
+c2 = C;
 surf2z = (-B - sqrt(B^2 - 4*A*C))/2/A;
 %x^2 + (z - P2 - R2)^2 = R2^2
 %x^2 = R2^2 - z^2 +2*z*(P2+R2) -(P2+R2)^2 
@@ -127,7 +129,9 @@ ray3 = [-ray3x/sqrt(ray3x^2 + ray3z^2), -ray3z/sqrt(ray3x^2 + ray3z^2)];
 A = 1 + (ray3x/ray3z)^2;
 B = (2*(R3-P3)) + 2*surf2x*ray3x/ray3z -2*surf2z*(ray3x/ray3z)^2;
 C = P3^2 - 2*R3*P3 + surf2x^2 -2*surf2x*surf2z*ray3x/ray3z + surf2z*surf2z*(ray3x/ray3z)^2;
-
+a3 = A;
+b3 = B;
+c3 = C;
 surf3z = (-B + sqrt(B^2 - 4*A*C))/2/A;
 %x^2 + (z - P2 + R2)^2 = R2^2
 %x^2 = R2^2 - z^2 +2*z*(P2-R2) -(P2-R2)^2 
